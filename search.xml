@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/project/hello-world/</url>
+    <title>ECC</title>
+    <url>/project/ECC/</url>
     <content><![CDATA[]]></content>
+      <categories>
+        <category>-crypto</category>
+      </categories>
+      <tags>
+        <tag>-crypto</tag>
+      </tags>
   </entry>
   <entry>
     <title>刷题笔记</title>
