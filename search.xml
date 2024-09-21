@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>数论</title>
+    <url>/project/%E6%95%B0%E8%AE%BA/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>math</category>
+      </categories>
+      <tags>
+        <tag>math</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>ECC</title>
     <url>/project/ECC/</url>
     <content><![CDATA[]]></content>
