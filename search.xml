@@ -12,17 +12,6 @@
       </tags>
   </entry>
   <entry>
-    <title>LFSR</title>
-    <url>/project/LFSR/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>crypto</category>
-      </categories>
-      <tags>
-        <tag>crypto</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>ECC</title>
     <url>/project/ECC/</url>
     <content><![CDATA[]]></content>
@@ -42,6 +31,17 @@
       </categories>
       <tags>
         <tag>math</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>LFSR</title>
+    <url>/project/LFSR/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>crypto</category>
+      </categories>
+      <tags>
+        <tag>crypto</tag>
       </tags>
   </entry>
   <entry>
