@@ -1,17 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>ECC&#39;s smart attack</title>
-    <url>/project/ECC&#39;s%20smart%20attack/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>crypto</category>
-      </categories>
-      <tags>
-        <tag>crypto</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>ECC</title>
     <url>/project/ECC/</url>
     <content><![CDATA[]]></content>
@@ -31,6 +20,28 @@
       </categories>
       <tags>
         <tag>math</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ECC&#39;s smart attack</title>
+    <url>/project/ECC&#39;s%20smart%20attack/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>crypto</category>
+      </categories>
+      <tags>
+        <tag>crypto</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>LFSR</title>
+    <url>/project/LFSR/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>crypto</category>
+      </categories>
+      <tags>
+        <tag>crypto</tag>
       </tags>
   </entry>
   <entry>
