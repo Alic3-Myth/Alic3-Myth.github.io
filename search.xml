@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>ECC</title>
-    <url>/project/ECC/</url>
+    <title>LFSR(一)</title>
+    <url>/project/LFSR(%E4%B8%80)/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>crypto</category>
+      </categories>
+      <tags>
+        <tag>crypto</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ECC&#39;s smart attack</title>
+    <url>/project/ECC&#39;s%20smart%20attack/</url>
     <content><![CDATA[]]></content>
       <categories>
         <category>crypto</category>
@@ -23,19 +34,8 @@
       </tags>
   </entry>
   <entry>
-    <title>LFSR(一)</title>
-    <url>/project/LFSR(%E4%B8%80)/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>crypto</category>
-      </categories>
-      <tags>
-        <tag>crypto</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>ECC&#39;s smart attack</title>
-    <url>/project/ECC&#39;s%20smart%20attack/</url>
+    <title>ECC</title>
+    <url>/project/ECC/</url>
     <content><![CDATA[]]></content>
       <categories>
         <category>crypto</category>
