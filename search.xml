@@ -12,17 +12,6 @@
       </tags>
   </entry>
   <entry>
-    <title>ECC</title>
-    <url>/project/ECC/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>crypto</category>
-      </categories>
-      <tags>
-        <tag>crypto</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>数论</title>
     <url>/project/%E6%95%B0%E8%AE%BA/</url>
     <content><![CDATA[]]></content>
@@ -34,8 +23,19 @@
       </tags>
   </entry>
   <entry>
-    <title>LFSR</title>
-    <url>/project/LFSR/</url>
+    <title>LFSR(一)</title>
+    <url>/project/LFSR(%E4%B8%80)/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>crypto</category>
+      </categories>
+      <tags>
+        <tag>crypto</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ECC</title>
+    <url>/project/ECC/</url>
     <content><![CDATA[]]></content>
       <categories>
         <category>crypto</category>
