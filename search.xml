@@ -12,6 +12,17 @@
       </tags>
   </entry>
   <entry>
+    <title>LFSR(二)</title>
+    <url>/project/LFSR(%E4%BA%8C)/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>crypto</category>
+      </categories>
+      <tags>
+        <tag>crypto</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>LFSR(一)</title>
     <url>/project/LFSR(%E4%B8%80)/</url>
     <content><![CDATA[]]></content>
@@ -23,19 +34,21 @@
       </tags>
   </entry>
   <entry>
-    <title>ECC</title>
-    <url>/project/ECC/</url>
+    <title>ByteCTF 2024 magic_lfsr</title>
+    <url>/project/ByteCTF-2024-magic-lfsr/</url>
     <content><![CDATA[]]></content>
       <categories>
+        <category>WriteUp</category>
         <category>crypto</category>
       </categories>
       <tags>
         <tag>crypto</tag>
+        <tag>WriteUp</tag>
       </tags>
   </entry>
   <entry>
-    <title>LFSR(二)</title>
-    <url>/project/LFSR(%E4%BA%8C)/</url>
+    <title>ECC</title>
+    <url>/project/ECC/</url>
     <content><![CDATA[]]></content>
       <categories>
         <category>crypto</category>
