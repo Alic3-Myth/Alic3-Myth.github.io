@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>ByteCTF 2024 magic_lfsr</title>
-    <url>/project/ByteCTF-2024-magic-lfsr/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>WriteUp</category>
-      </categories>
-      <tags>
-        <tag>WriteUp</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>ECC&#39;s smart attack</title>
-    <url>/project/ECC&#39;s%20smart%20attack/</url>
+    <title>ECC</title>
+    <url>/project/ECC/</url>
     <content><![CDATA[]]></content>
       <categories>
         <category>crypto</category>
@@ -45,6 +34,28 @@
       </tags>
   </entry>
   <entry>
+    <title>ByteCTF 2024 magic_lfsr</title>
+    <url>/project/ByteCTF-2024-magic-lfsr/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>WriteUp</category>
+      </categories>
+      <tags>
+        <tag>WriteUp</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>LFSR(二)</title>
+    <url>/project/LFSR(%E4%BA%8C)/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>crypto</category>
+      </categories>
+      <tags>
+        <tag>crypto</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>NSSCTF Round#17</title>
     <url>/project/NSSCTF%20Round#17/</url>
     <content><![CDATA[]]></content>
@@ -67,17 +78,6 @@
       </tags>
   </entry>
   <entry>
-    <title>LFSR(二)</title>
-    <url>/project/LFSR(%E4%BA%8C)/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>crypto</category>
-      </categories>
-      <tags>
-        <tag>crypto</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>RSA常见的攻击方法</title>
     <url>/project/RSA%E5%B8%B8%E8%A7%81%E7%9A%84%E6%94%BB%E5%87%BB%E6%96%B9%E6%B3%95/</url>
     <content><![CDATA[]]></content>
@@ -89,8 +89,8 @@
       </tags>
   </entry>
   <entry>
-    <title>ECC</title>
-    <url>/project/ECC/</url>
+    <title>NTRU例题</title>
+    <url>/project/NTRU%E4%BE%8B%E9%A2%98/</url>
     <content><![CDATA[]]></content>
       <categories>
         <category>crypto</category>
@@ -108,6 +108,17 @@
       </categories>
       <tags>
         <tag>math</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ECC&#39;s smart attack</title>
+    <url>/project/ECC&#39;s%20smart%20attack/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>crypto</category>
+      </categories>
+      <tags>
+        <tag>crypto</tag>
       </tags>
   </entry>
   <entry>
