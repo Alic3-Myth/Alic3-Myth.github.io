@@ -1,29 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>春秋云镜-Tsclient</title>
-    <url>/posts/56bf.html</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/posts/3eeb.html</url>
-    <content><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick StartCreate a new post$ hexo new &quot;My New Post&quot;
-
-More info: Writing
-Run server$ hexo server
-
-More info: Server
-Generate static files$ hexo generate
-
-More info: Generating
-Deploy to remote sites$ hexo deploy
-
-More info: Deployment
-]]></content>
-  </entry>
-  <entry>
     <title>春秋云镜-Initial</title>
     <url>/posts/536e.html</url>
     <content><![CDATA[flag1:fscan扫一下，发现有thinkphp的洞
@@ -92,5 +69,170 @@ PTH进行哈希传递
 发现传递成功，接下来即可执行命令拿flag了
 
 ]]></content>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/posts/3eeb.html</url>
+    <content><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
+Quick StartCreate a new post$ hexo new &quot;My New Post&quot;
+
+More info: Writing
+Run server$ hexo server
+
+More info: Server
+Generate static files$ hexo generate
+
+More info: Generating
+Deploy to remote sites$ hexo deploy
+
+More info: Deployment
+]]></content>
+  </entry>
+  <entry>
+    <title>初识内网渗透</title>
+    <url>/posts/6738.html</url>
+    <content><![CDATA[内网渗透，大概理解为对目标服务器所在的内网进行渗透，而往往最终目标就是获取域控权限。
+
+Linux内网渗透信息收集获取内核，操作系统和设备的信息版本信息：
+uname -a	所有版本
+uname -r    内核版本信息
+uname -n    系统主机名称
+uname -m    Linux内核框架
+
+
+
+Linux：表示操作系统内核名称
+
+kali：主机名(hostname)，这是这台机器在网络中的名称
+
+6.12.20-amd64：内核版本号
+
+#63-Ubuntu SMP PREEMPT_DYNAMIC Tue Apr 15 19:04:15 UTC 2025：
+
+#1：表示这是该内核构建的第 1 次编译
+SMP：支持对称多处理（Symmetric Multi-Processing）
+PREEMPT_DYNAMIC：表示内核启用了动态抢占支持，适合桌面或低延迟场景
+后面是编译时间：2025年4月15日 19:04:15 UTC
+
+
+Kali 6.12.20-1kali1 (2025-03-26)：
+
+表示这是由 Kali 官方打包的定制内核。
+
+6.12.20-1kali1 是 Kali 对该内核的包版本号。
+
+(2025-03-26) 表示该内核打包或发布的时间为 2025 年 3 月 26 日。
+
+
+
+x86_64 GNU/Linux：表示这是一个运行在 64 位 Intel&#x2F;AMD 架构上的 GNU&#x2F;Linux 系统。
+
+
+内核信息：
+cat /proc/version
+
+
+
+(devel@kali.org)：表示该内核是由 Kali 官方团队在 devel@kali.org 构建的，通常是官方维护人员或自动化系统。
+x86_64-linux-gnu-gcc-14 (Debian 14.2.0-19) 14.2.0：使用的是 GCC 版本 14.2.0 编译器，属于 Debian 14.2.0-19 的发行版组件。Kali 基于 Debian，因此使用其工具链。
+GNU ld (GNU Binutils for Debian) 2.44：使用的链接器来自 GNU Binutils 工具集，版本为 2.44。
+
+
+
+CPU信息：cat /proc/cpuinfo
+
+主机名：hostname
+
+文件系统：df -a
+
+
+
+
+内核日志：dmesg&#x2F;/var/log/dmesg
+
+用户和组
+列出系统所有用户：cat /etc/passwd
+
+列出系统所有组：cat /etc/group
+
+列出所有用户的hash（root）：cat /etc/shadow
+
+用户：
+
+当前登录的用户：users  &#x2F;who -a /var/log/utmp
+查询无密码用户：grep &#39;x:0:&#39; /etc/passwd
+
+
+当前登录的用户：w
+
+查看特权用户：grep :0 /etc/passwd
+
+查看passwd最后修改时间：ls -l /etc/passwd
+
+查看具有sudo权限的用户：&#96;&#96;cat &#x2F;etc&#x2F;sudoers | grep -v “^#|^$” | grep “ALL&#x3D;(ALL)”&#96;
+
+
+用户和权限信息
+当前用户：whoami
+当前用户信息：id
+可以使用sudo提升到root的用户（root）：cat /etc/sudoers
+列出目前用户可执行域无法执行的指令：sudo -l
+
+环境信息
+打印系统环境信息 env
+打印系统环境信息 set
+环境变量中的路径信息 echo  $PATH
+打印历史命令：history&#x2F;~/.bash_history
+显示当前路径：pwd
+显示默认系统遍历：cat /etc/profile
+显示可用的shell：cat /etc/shells
+
+进程信息
+查看进程信息：ps aux
+资源占有情况：top -c
+查看进程关联文件：lsof -c $PID
+
+网络，路由和通信
+列出网络接口信息：/sbin/ifconfig -a &#x2F; ip addr show
+列出系统arp表：arp -a
+打印路由信息：route&#x2F;ip ro show
+查看dns配置信息：cat /etc/resolv.conf
+打印本地端口开放信息：netstat -an
+列出iptable的配置规则：iptables -L
+查看端口服务映射：cat /etc/services
+Hostname：hostname -f
+查看进程端口情况：netstat -anltp | grep $PID
+
+公私钥信息
+~/.ssh
+/etc/ssh
+
+持久化权限提升
+内核漏洞利用
+
+攻击有root权限的服务
+
+利用第三方服务提权
+
+通过有SUID属性的可执行文件
+
+查找可能提权的可执行文件：
+find / -perm  +4000 -ls
+find / -perm -u=s -type f 2&gt;/dev/null
+find / -user root -perm -4000 -print 2&gt;/dev/null
+find / -user root -perm -4000 -exec ls -lab &#123;&#125; \; 2&gt;/dev/null
+
+
+利用可用的root权限：sudo -l
+
+利用误配置的crontab任务
+
+
+]]></content>
+  </entry>
+  <entry>
+    <title>春秋云镜-Tsclient</title>
+    <url>/posts/56bf.html</url>
+    <content><![CDATA[]]></content>
   </entry>
 </search>
